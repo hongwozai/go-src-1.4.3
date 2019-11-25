@@ -1,0 +1,1133 @@
+# Building C bootstrap tool.
+cmd/dist
+
+# Building compilers and Go bootstrap tool for host, linux/amd64.
+lib9
+pid: 16554, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/_exits.o /home/zeya/Workspaces/go/go/src/lib9/_exits.c (null)
+pid: 16555, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/_p9dir.o /home/zeya/Workspaces/go/go/src/lib9/_p9dir.c (null)
+pid: 16557, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/await.o /home/zeya/Workspaces/go/go/src/lib9/await.c (null)
+pid: 16556, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/atoi.o /home/zeya/Workspaces/go/go/src/lib9/atoi.c (null)
+pid: 16571, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/cleanname.o /home/zeya/Workspaces/go/go/src/lib9/cleanname.c (null)
+pid: 16572, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/create.o /home/zeya/Workspaces/go/go/src/lib9/create.c (null)
+pid: 16577, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/ctime.o /home/zeya/Workspaces/go/go/src/lib9/ctime.c (null)
+pid: 16580, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/dirfstat.o /home/zeya/Workspaces/go/go/src/lib9/dirfstat.c (null)
+pid: 16583, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/dirfwstat.o /home/zeya/Workspaces/go/go/src/lib9/dirfwstat.c (null)
+pid: 16586, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/dirstat.o /home/zeya/Workspaces/go/go/src/lib9/dirstat.c (null)
+pid: 16589, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/dirwstat.o /home/zeya/Workspaces/go/go/src/lib9/dirwstat.c (null)
+pid: 16592, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/dup.o /home/zeya/Workspaces/go/go/src/lib9/dup.c (null)
+pid: 16595, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/errstr.o /home/zeya/Workspaces/go/go/src/lib9/errstr.c (null)
+pid: 16598, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/exec.o /home/zeya/Workspaces/go/go/src/lib9/exec.c (null)
+pid: 16601, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/execl.o /home/zeya/Workspaces/go/go/src/lib9/execl.c (null)
+pid: 16604, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/exitcode.o /home/zeya/Workspaces/go/go/src/lib9/exitcode.c (null)
+pid: 16607, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/exits.o /home/zeya/Workspaces/go/go/src/lib9/exits.c (null)
+pid: 16610, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/flag.o /home/zeya/Workspaces/go/go/src/lib9/flag.c (null)
+pid: 16613, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/charstod.o /home/zeya/Workspaces/go/go/src/lib9/fmt/charstod.c (null)
+pid: 16616, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/dofmt.o /home/zeya/Workspaces/go/go/src/lib9/fmt/dofmt.c (null)
+pid: 16619, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/dorfmt.o /home/zeya/Workspaces/go/go/src/lib9/fmt/dorfmt.c (null)
+pid: 16622, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fltfmt.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fltfmt.c (null)
+pid: 16625, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fmt.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fmt.c (null)
+pid: 16626, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fmtfd.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fmtfd.c (null)
+/home/zeya/Workspaces/go/go/src/lib9/fmt/fltfmt.c: In function '__efgfmt':
+/home/zeya/Workspaces/go/go/src/lib9/fmt/fltfmt.c:437:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(ndigits > prec) {
+     ^
+/home/zeya/Workspaces/go/go/src/lib9/fmt/fltfmt.c:451:2: note: here
+  default:
+  ^~~~~~~
+pid: 16631, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fmtfdflush.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fmtfdflush.c (null)
+pid: 16634, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fmtlocale.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fmtlocale.c (null)
+pid: 16637, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fmtlock.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fmtlock.c (null)
+pid: 16640, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fmtnull.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fmtnull.c (null)
+pid: 16643, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fmtprint.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fmtprint.c (null)
+pid: 16646, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fmtquote.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fmtquote.c (null)
+pid: 16649, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fmtrune.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fmtrune.c (null)
+pid: 16651, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fmtstr.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fmtstr.c (null)
+pid: 16655, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fmtvprint.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fmtvprint.c (null)
+pid: 16658, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fprint.o /home/zeya/Workspaces/go/go/src/lib9/fmt/fprint.c (null)
+pid: 16660, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/nan64.o /home/zeya/Workspaces/go/go/src/lib9/fmt/nan64.c (null)
+pid: 16664, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/pow10.o /home/zeya/Workspaces/go/go/src/lib9/fmt/pow10.c (null)
+pid: 16667, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/print.o /home/zeya/Workspaces/go/go/src/lib9/fmt/print.c (null)
+pid: 16670, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/seprint.o /home/zeya/Workspaces/go/go/src/lib9/fmt/seprint.c (null)
+pid: 16671, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/smprint.o /home/zeya/Workspaces/go/go/src/lib9/fmt/smprint.c (null)
+pid: 16672, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/snprint.o /home/zeya/Workspaces/go/go/src/lib9/fmt/snprint.c (null)
+pid: 16679, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/sprint.o /home/zeya/Workspaces/go/go/src/lib9/fmt/sprint.c (null)
+pid: 16680, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/strtod.o /home/zeya/Workspaces/go/go/src/lib9/fmt/strtod.c (null)
+pid: 16682, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/vfprint.o /home/zeya/Workspaces/go/go/src/lib9/fmt/vfprint.c (null)
+pid: 16688, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/vseprint.o /home/zeya/Workspaces/go/go/src/lib9/fmt/vseprint.c (null)
+/home/zeya/Workspaces/go/go/src/lib9/fmt/strtod.c: In function 'fmtstrtod':
+/home/zeya/Workspaces/go/go/src/lib9/fmt/strtod.c:141:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    if(state == S0)
+      ^
+/home/zeya/Workspaces/go/go/src/lib9/fmt/strtod.c:145:3: note: here
+   case '+':
+   ^~~~
+/home/zeya/Workspaces/go/go/src/lib9/fmt/strtod.c:182:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(xcmp(s, "nan") == 0) {
+     ^
+/home/zeya/Workspaces/go/go/src/lib9/fmt/strtod.c:187:2: note: here
+  case S1:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/lib9/fmt/strtod.c:193:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(xcmp(s, "inf") == 0) {
+     ^
+/home/zeya/Workspaces/go/go/src/lib9/fmt/strtod.c:198:2: note: here
+  case S3:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/lib9/fmt/strtod.c:203:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   s--;  /* back over +- */
+   ~^~
+/home/zeya/Workspaces/go/go/src/lib9/fmt/strtod.c:204:2: note: here
+  case S5:
+  ^~~~
+pid: 16691, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/vsmprint.o /home/zeya/Workspaces/go/go/src/lib9/fmt/vsmprint.c (null)
+pid: 16694, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/vsnprint.o /home/zeya/Workspaces/go/go/src/lib9/fmt/vsnprint.c (null)
+pid: 16697, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/fmtlock2.o /home/zeya/Workspaces/go/go/src/lib9/fmtlock2.c (null)
+pid: 16700, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/getenv.o /home/zeya/Workspaces/go/go/src/lib9/getenv.c (null)
+pid: 16703, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/getfields.o /home/zeya/Workspaces/go/go/src/lib9/getfields.c (null)
+pid: 16704, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/getwd.o /home/zeya/Workspaces/go/go/src/lib9/getwd.c (null)
+pid: 16709, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -D GOOS="linux" -D GOARCH="amd64" -D GOROOT="/home/zeya/Workspaces/go/go" -D GOVERSION="go1.4.3" -D GOARM="6" -D GO386="sse2" -D GO_EXTLINK_ENABLED="" -o /var/tmp/go-cbuild-tap8Hw/goos.o /home/zeya/Workspaces/go/go/src/lib9/goos.c (null)
+pid: 16710, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/jmp.o /home/zeya/Workspaces/go/go/src/lib9/jmp.c (null)
+pid: 16713, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/main.o /home/zeya/Workspaces/go/go/src/lib9/main.c (null)
+pid: 16718, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/nan.o /home/zeya/Workspaces/go/go/src/lib9/nan.c (null)
+pid: 16721, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/notify.o /home/zeya/Workspaces/go/go/src/lib9/notify.c (null)
+pid: 16724, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/nulldir.o /home/zeya/Workspaces/go/go/src/lib9/nulldir.c (null)
+pid: 16726, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/open.o /home/zeya/Workspaces/go/go/src/lib9/open.c (null)
+pid: 16730, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/readn.o /home/zeya/Workspaces/go/go/src/lib9/readn.c (null)
+pid: 16733, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/rfork.o /home/zeya/Workspaces/go/go/src/lib9/rfork.c (null)
+pid: 16736, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/run_unix.o /home/zeya/Workspaces/go/go/src/lib9/run_unix.c (null)
+pid: 16737, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/seek.o /home/zeya/Workspaces/go/go/src/lib9/seek.c (null)
+pid: 16742, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/strecpy.o /home/zeya/Workspaces/go/go/src/lib9/strecpy.c (null)
+pid: 16745, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/sysfatal.o /home/zeya/Workspaces/go/go/src/lib9/sysfatal.c (null)
+pid: 16748, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/tempdir_unix.o /home/zeya/Workspaces/go/go/src/lib9/tempdir_unix.c (null)
+pid: 16751, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/time.o /home/zeya/Workspaces/go/go/src/lib9/time.c (null)
+pid: 16754, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/tokenize.o /home/zeya/Workspaces/go/go/src/lib9/tokenize.c (null)
+pid: 16757, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/rune.o /home/zeya/Workspaces/go/go/src/lib9/utf/rune.c (null)
+pid: 16760, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/runetype.o /home/zeya/Workspaces/go/go/src/lib9/utf/runetype.c (null)
+pid: 16761, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/utfecpy.o /home/zeya/Workspaces/go/go/src/lib9/utf/utfecpy.c (null)
+pid: 16766, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/utflen.o /home/zeya/Workspaces/go/go/src/lib9/utf/utflen.c (null)
+pid: 16769, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/utfnlen.o /home/zeya/Workspaces/go/go/src/lib9/utf/utfnlen.c (null)
+pid: 16772, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/utfrrune.o /home/zeya/Workspaces/go/go/src/lib9/utf/utfrrune.c (null)
+pid: 16775, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/utfrune.o /home/zeya/Workspaces/go/go/src/lib9/utf/utfrune.c (null)
+pid: 16778, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -DPLAN9PORT -I /home/zeya/Workspaces/go/go/src/lib9 -o /var/tmp/go-cbuild-tap8Hw/utfutf.o /home/zeya/Workspaces/go/go/src/lib9/utf/utfutf.c (null)
+pid: 16781, exec  ar rsc /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/lib9.a /var/tmp/go-cbuild-tap8Hw/_exits.o /var/tmp/go-cbuild-tap8Hw/_p9dir.o /var/tmp/go-cbuild-tap8Hw/atoi.o /var/tmp/go-cbuild-tap8Hw/await.o /var/tmp/go-cbuild-tap8Hw/cleanname.o /var/tmp/go-cbuild-tap8Hw/create.o /var/tmp/go-cbuild-tap8Hw/ctime.o /var/tmp/go-cbuild-tap8Hw/dirfstat.o /var/tmp/go-cbuild-tap8Hw/dirfwstat.o /var/tmp/go-cbuild-tap8Hw/dirstat.o /var/tmp/go-cbuild-tap8Hw/dirwstat.o /var/tmp/go-cbuild-tap8Hw/dup.o /var/tmp/go-cbuild-tap8Hw/errstr.o /var/tmp/go-cbuild-tap8Hw/exec.o /var/tmp/go-cbuild-tap8Hw/execl.o /var/tmp/go-cbuild-tap8Hw/exitcode.o /var/tmp/go-cbuild-tap8Hw/exits.o /var/tmp/go-cbuild-tap8Hw/flag.o /var/tmp/go-cbuild-tap8Hw/charstod.o /var/tmp/go-cbuild-tap8Hw/dofmt.o /var/tmp/go-cbuild-tap8Hw/dorfmt.o /var/tmp/go-cbuild-tap8Hw/fltfmt.o /var/tmp/go-cbuild-tap8Hw/fmt.o /var/tmp/go-cbuild-tap8Hw/fmtfd.o /var/tmp/go-cbuild-tap8Hw/fmtfdflush.o /var/tmp/go-cbuild-tap8Hw/fmtlocale.o /var/tmp/go-cbuild-tap8Hw/fmtlock.o /var/tmp/go-cbuild-tap8Hw/fmtnull.o /var/tmp/go-cbuild-tap8Hw/fmtprint.o /var/tmp/go-cbuild-tap8Hw/fmtquote.o /var/tmp/go-cbuild-tap8Hw/fmtrune.o /var/tmp/go-cbuild-tap8Hw/fmtstr.o /var/tmp/go-cbuild-tap8Hw/fmtvprint.o /var/tmp/go-cbuild-tap8Hw/fprint.o /var/tmp/go-cbuild-tap8Hw/nan64.o /var/tmp/go-cbuild-tap8Hw/pow10.o /var/tmp/go-cbuild-tap8Hw/print.o /var/tmp/go-cbuild-tap8Hw/seprint.o /var/tmp/go-cbuild-tap8Hw/smprint.o /var/tmp/go-cbuild-tap8Hw/snprint.o /var/tmp/go-cbuild-tap8Hw/sprint.o /var/tmp/go-cbuild-tap8Hw/strtod.o /var/tmp/go-cbuild-tap8Hw/vfprint.o /var/tmp/go-cbuild-tap8Hw/vseprint.o /var/tmp/go-cbuild-tap8Hw/vsmprint.o /var/tmp/go-cbuild-tap8Hw/vsnprint.o /var/tmp/go-cbuild-tap8Hw/fmtlock2.o /var/tmp/go-cbuild-tap8Hw/getenv.o /var/tmp/go-cbuild-tap8Hw/getfields.o /var/tmp/go-cbuild-tap8Hw/getwd.o /var/tmp/go-cbuild-tap8Hw/goos.o /var/tmp/go-cbuild-tap8Hw/jmp.o /var/tmp/go-cbuild-tap8Hw/main.o /var/tmp/go-cbuild-tap8Hw/nan.o /var/tmp/go-cbuild-tap8Hw/notify.o /var/tmp/go-cbuild-tap8Hw/nulldir.o /var/tmp/go-cbuild-tap8Hw/open.o /var/tmp/go-cbuild-tap8Hw/readn.o /var/tmp/go-cbuild-tap8Hw/rfork.o /var/tmp/go-cbuild-tap8Hw/run_unix.o /var/tmp/go-cbuild-tap8Hw/seek.o /var/tmp/go-cbuild-tap8Hw/strecpy.o /var/tmp/go-cbuild-tap8Hw/sysfatal.o /var/tmp/go-cbuild-tap8Hw/tempdir_unix.o /var/tmp/go-cbuild-tap8Hw/time.o /var/tmp/go-cbuild-tap8Hw/tokenize.o /var/tmp/go-cbuild-tap8Hw/rune.o /var/tmp/go-cbuild-tap8Hw/runetype.o /var/tmp/go-cbuild-tap8Hw/utfecpy.o /var/tmp/go-cbuild-tap8Hw/utflen.o /var/tmp/go-cbuild-tap8Hw/utfnlen.o /var/tmp/go-cbuild-tap8Hw/utfrrune.o /var/tmp/go-cbuild-tap8Hw/utfrune.o /var/tmp/go-cbuild-tap8Hw/utfutf.o (null)
+libbio
+pid: 16782, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/bbuffered.o /home/zeya/Workspaces/go/go/src/libbio/bbuffered.c (null)
+pid: 16783, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/bfildes.o /home/zeya/Workspaces/go/go/src/libbio/bfildes.c (null)
+pid: 16784, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/bflush.o /home/zeya/Workspaces/go/go/src/libbio/bflush.c (null)
+pid: 16785, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/bgetc.o /home/zeya/Workspaces/go/go/src/libbio/bgetc.c (null)
+/home/zeya/Workspaces/go/go/src/libbio/bflush.c: In function 'Bflush':
+/home/zeya/Workspaces/go/go/src/libbio/bflush.c:51:13: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   bp->state = Bractive;
+   ~~~~~~~~~~^~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/libbio/bflush.c:53:2: note: here
+  case Bractive:
+  ^~~~
+pid: 16794, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/bgetd.o /home/zeya/Workspaces/go/go/src/libbio/bgetd.c (null)
+pid: 16795, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/bgetrune.o /home/zeya/Workspaces/go/go/src/libbio/bgetrune.c (null)
+pid: 16797, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/binit.o /home/zeya/Workspaces/go/go/src/libbio/binit.c (null)
+pid: 16803, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/boffset.o /home/zeya/Workspaces/go/go/src/libbio/boffset.c (null)
+pid: 16806, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/bprint.o /home/zeya/Workspaces/go/go/src/libbio/bprint.c (null)
+pid: 16808, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/bputc.o /home/zeya/Workspaces/go/go/src/libbio/bputc.c (null)
+pid: 16812, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/bputrune.o /home/zeya/Workspaces/go/go/src/libbio/bputrune.c (null)
+pid: 16815, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/brdline.o /home/zeya/Workspaces/go/go/src/libbio/brdline.c (null)
+pid: 16818, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/brdstr.o /home/zeya/Workspaces/go/go/src/libbio/brdstr.c (null)
+pid: 16821, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/bread.o /home/zeya/Workspaces/go/go/src/libbio/bread.c (null)
+pid: 16822, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/bseek.o /home/zeya/Workspaces/go/go/src/libbio/bseek.c (null)
+pid: 16827, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/libbio -o /var/tmp/go-cbuild-tap8Hw/bwrite.o /home/zeya/Workspaces/go/go/src/libbio/bwrite.c (null)
+/home/zeya/Workspaces/go/go/src/libbio/bseek.c: In function 'Bseek':
+/home/zeya/Workspaces/go/go/src/libbio/bseek.c:51:12: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   bp->gbuf = bp->ebuf;
+   ~~~~~~~~~^~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/libbio/bseek.c:53:2: note: here
+  case Bractive:
+  ^~~~
+pid: 16830, exec  ar rsc /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/libbio.a /var/tmp/go-cbuild-tap8Hw/bbuffered.o /var/tmp/go-cbuild-tap8Hw/bfildes.o /var/tmp/go-cbuild-tap8Hw/bflush.o /var/tmp/go-cbuild-tap8Hw/bgetc.o /var/tmp/go-cbuild-tap8Hw/bgetd.o /var/tmp/go-cbuild-tap8Hw/bgetrune.o /var/tmp/go-cbuild-tap8Hw/binit.o /var/tmp/go-cbuild-tap8Hw/boffset.o /var/tmp/go-cbuild-tap8Hw/bprint.o /var/tmp/go-cbuild-tap8Hw/bputc.o /var/tmp/go-cbuild-tap8Hw/bputrune.o /var/tmp/go-cbuild-tap8Hw/brdline.o /var/tmp/go-cbuild-tap8Hw/brdstr.o /var/tmp/go-cbuild-tap8Hw/bread.o /var/tmp/go-cbuild-tap8Hw/bseek.o /var/tmp/go-cbuild-tap8Hw/bwrite.o (null)
+liblink
+pid: 16831, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/anames5.o /home/zeya/Workspaces/go/go/src/liblink/anames5.c (null)
+pid: 16833, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/anames6.o /home/zeya/Workspaces/go/go/src/liblink/anames6.c (null)
+pid: 16834, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/anames8.o /home/zeya/Workspaces/go/go/src/liblink/anames8.c (null)
+pid: 16835, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/asm5.o /home/zeya/Workspaces/go/go/src/liblink/asm5.c (null)
+pid: 16845, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/asm6.o /home/zeya/Workspaces/go/go/src/liblink/asm6.c (null)
+pid: 16848, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/asm8.o /home/zeya/Workspaces/go/go/src/liblink/asm8.c (null)
+pid: 16851, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/data.o /home/zeya/Workspaces/go/go/src/liblink/data.c (null)
+/home/zeya/Workspaces/go/go/src/liblink/asm5.c: In function 'buildop':
+/home/zeya/Workspaces/go/go/src/liblink/asm5.c:1352:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    sysfatal("bad code");
+    ^~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm5.c:1353:3: note: here
+   case AADD:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm5.c: In function 'ofsr':
+/home/zeya/Workspaces/go/go/src/liblink/asm5.c:2617:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   ctxt->diag("bad fst %A", a);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm5.c:2618:2: note: here
+  case AMOVD:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm8.c: In function 'doasm':
+/home/zeya/Workspaces/go/go/src/liblink/asm8.c:2694:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    sysfatal("unknown TLS base location for %s", headstr(ctxt->headtype));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm8.c:2696:3: note: here
+   case Hlinux:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm8.c: In function 'prefixof':
+/home/zeya/Workspaces/go/go/src/liblink/asm8.c:1466:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    sysfatal("unknown TLS base register for %s", headstr(ctxt->headtype));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm8.c:1467:3: note: here
+   case Hdarwin:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c: In function 'doasm':
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:3378:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    sysfatal("unknown TLS base location for %s", headstr(ctxt->headtype));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:3380:3: note: here
+   case Hplan9:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm8.c: In function 'mediaop':
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c: In function 'prefixof':
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:1909:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    sysfatal("unknown TLS base register for %s", headstr(ctxt->headtype));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:1910:3: note: here
+   case Hdragonfly:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c: In function 'oclass':
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:1983:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(ctxt->asmode != 64)
+     ^
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:1985:2: note: here
+  case D_DL:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:2011:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(ctxt->asmode != 64)
+     ^
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:2013:2: note: here
+  case D_SP:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c: In function 'mediaop':
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:2695:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(osize != 1){
+     ^
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:2702:2: note: here
+  default:
+  ^~~~~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm8.c:2131:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(osize != 1){
+     ^
+/home/zeya/Workspaces/go/go/src/liblink/asm8.c:2138:2: note: here
+  default:
+  ^~~~~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c: In function 'asmidx':
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:2156:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(ctxt->asmode != 64)
+     ^
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:2158:2: note: here
+  case D_AX:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:2198:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(ctxt->asmode != 64)
+     ^
+/home/zeya/Workspaces/go/go/src/liblink/asm6.c:2200:2: note: here
+  case D_AX:
+  ^~~~
+pid: 16854, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/go.o /home/zeya/Workspaces/go/go/src/liblink/go.c (null)
+pid: 16857, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/ld.o /home/zeya/Workspaces/go/go/src/liblink/ld.c (null)
+pid: 16860, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/list5.o /home/zeya/Workspaces/go/go/src/liblink/list5.c (null)
+pid: 16863, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/list6.o /home/zeya/Workspaces/go/go/src/liblink/list6.c (null)
+pid: 16866, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/list8.o /home/zeya/Workspaces/go/go/src/liblink/list8.c (null)
+pid: 16869, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/obj.o /home/zeya/Workspaces/go/go/src/liblink/obj.c (null)
+pid: 16872, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/obj5.o /home/zeya/Workspaces/go/go/src/liblink/obj5.c (null)
+pid: 16875, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/obj6.o /home/zeya/Workspaces/go/go/src/liblink/obj6.c (null)
+pid: 16878, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/obj8.o /home/zeya/Workspaces/go/go/src/liblink/obj8.c (null)
+/home/zeya/Workspaces/go/go/src/liblink/obj5.c: In function 'addstacksplit':
+/home/zeya/Workspaces/go/go/src/liblink/obj5.c:383:23: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    cursym->text->mark &= ~LEAF;
+    ~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/zeya/Workspaces/go/go/src/liblink/obj5.c:385:3: note: here
+   case ABCASE:
+   ^~~~
+pid: 16881, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/objfile.o /home/zeya/Workspaces/go/go/src/liblink/objfile.c (null)
+pid: 16884, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/pass.o /home/zeya/Workspaces/go/go/src/liblink/pass.c (null)
+pid: 16887, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/pcln.o /home/zeya/Workspaces/go/go/src/liblink/pcln.c (null)
+pid: 16890, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/liblink -o /var/tmp/go-cbuild-tap8Hw/sym.o /home/zeya/Workspaces/go/go/src/liblink/sym.c (null)
+/home/zeya/Workspaces/go/go/src/liblink/sym.c: In function 'linknew':
+/home/zeya/Workspaces/go/go/src/liblink/sym.c:150:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    sysfatal("unknown thread-local storage offset for nacl/%s", ctxt->arch->name);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/liblink/sym.c:151:3: note: here
+   case '6':
+   ^~~~
+/home/zeya/Workspaces/go/go/src/liblink/sym.c:170:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    sysfatal("unknown thread-local storage offset for darwin/%s", ctxt->arch->name);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/liblink/sym.c:171:3: note: here
+   case '6':
+   ^~~~
+pid: 16893, exec  ar rsc /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/liblink.a /var/tmp/go-cbuild-tap8Hw/anames5.o /var/tmp/go-cbuild-tap8Hw/anames6.o /var/tmp/go-cbuild-tap8Hw/anames8.o /var/tmp/go-cbuild-tap8Hw/asm5.o /var/tmp/go-cbuild-tap8Hw/asm6.o /var/tmp/go-cbuild-tap8Hw/asm8.o /var/tmp/go-cbuild-tap8Hw/data.o /var/tmp/go-cbuild-tap8Hw/go.o /var/tmp/go-cbuild-tap8Hw/ld.o /var/tmp/go-cbuild-tap8Hw/list5.o /var/tmp/go-cbuild-tap8Hw/list6.o /var/tmp/go-cbuild-tap8Hw/list8.o /var/tmp/go-cbuild-tap8Hw/obj.o /var/tmp/go-cbuild-tap8Hw/obj5.o /var/tmp/go-cbuild-tap8Hw/obj6.o /var/tmp/go-cbuild-tap8Hw/obj8.o /var/tmp/go-cbuild-tap8Hw/objfile.o /var/tmp/go-cbuild-tap8Hw/pass.o /var/tmp/go-cbuild-tap8Hw/pcln.o /var/tmp/go-cbuild-tap8Hw/sym.o (null)
+cmd/cc
+pid: 16894, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/acid.o /home/zeya/Workspaces/go/go/src/cmd/cc/acid.c (null)
+pid: 16895, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/bits.o /home/zeya/Workspaces/go/go/src/cmd/cc/bits.c (null)
+pid: 16897, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/com64.o /home/zeya/Workspaces/go/go/src/cmd/cc/com64.c (null)
+pid: 16896, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/com.o /home/zeya/Workspaces/go/go/src/cmd/cc/com.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/cc/acid.c: In function 'acidmember':
+/home/zeya/Workspaces/go/go/src/cmd/cc/acid.c:150:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(flag) {
+     ^
+/home/zeya/Workspaces/go/go/src/cmd/cc/acid.c:177:2: note: here
+  case TINT:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/com64.c: In function 'com64':
+/home/zeya/Workspaces/go/go/src/cmd/cc/com64.c:257:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    if(rv) {
+      ^
+/home/zeya/Workspaces/go/go/src/cmd/cc/com64.c:265:3: note: here
+   case OCOND:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/com64.c:300:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    diag(n, "unknown vlong %O", n->op);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/com64.c:301:3: note: here
+   case OFUNC:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/com64.c:302:15: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    n->complex = FNX;
+               ^
+/home/zeya/Workspaces/go/go/src/cmd/cc/com64.c:303:3: note: here
+   case ORETURN:
+   ^~~~
+pid: 16906, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/dcl.o /home/zeya/Workspaces/go/go/src/cmd/cc/dcl.c (null)
+pid: 16909, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/dpchk.o /home/zeya/Workspaces/go/go/src/cmd/cc/dpchk.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/cc/dcl.c: In function 'isstruct':
+/home/zeya/Workspaces/go/go/src/cmd/cc/dcl.c:295:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(n && n->type && sametype(n->type, t))
+     ^
+/home/zeya/Workspaces/go/go/src/cmd/cc/dcl.c:297:2: note: here
+  case OSTRING:
+  ^~~~
+pid: 16912, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/funct.o /home/zeya/Workspaces/go/go/src/cmd/cc/funct.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/cc/dpchk.c: In function 'getflag':
+/home/zeya/Workspaces/go/go/src/cmd/cc/dpchk.c:121:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    nstar++;
+    ~~~~~^~
+/home/zeya/Workspaces/go/go/src/cmd/cc/dpchk.c:122:3: note: here
+   case Fignor:
+   ^~~~
+pid: 16915, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/godefs.o /home/zeya/Workspaces/go/go/src/cmd/cc/godefs.c (null)
+pid: 16918, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -D GOEXPERIMENT="" -o /var/tmp/go-cbuild-tap8Hw/lex.o /home/zeya/Workspaces/go/go/src/cmd/cc/lex.c (null)
+pid: 16921, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/mac.o /home/zeya/Workspaces/go/go/src/cmd/cc/mac.c (null)
+pid: 16924, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/omachcap.o /home/zeya/Workspaces/go/go/src/cmd/cc/omachcap.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/cc/lex.c: In function 'compile':
+/home/zeya/Workspaces/go/go/src/cmd/cc/lex.c:308:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    errorexit();
+    ^~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/lex.c:309:3: note: here
+   case 0:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/lex.c:338:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    errorexit();
+    ^~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/lex.c:339:3: note: here
+   default:
+   ^~~~~~~
+pid: 16927, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/scon.o /home/zeya/Workspaces/go/go/src/cmd/cc/scon.c (null)
+pid: 16930, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/sub.o /home/zeya/Workspaces/go/go/src/cmd/cc/sub.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c: In function 'allfloat':
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c:528:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    if(!allfloat(n->right, flag))
+      ^
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c:530:3: note: here
+   case OCAST:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c: In function 'simplifyshift':
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c:863:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(topbit(c3) >= (32-c2))
+     ^
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c:865:2: note: here
+  case 001: /* (((e >>u c2) & c3) <<u c1) */
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c:880:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(c2 <= 0)
+     ^
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c:882:2: note: here
+  case 012: /* (((e >>s c2) & c3) >>u c1) */
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c:900:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(topbit(c3) >= 31)
+     ^
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c:902:2: note: here
+  case 010: /* (((e <<u c2) & c3) >>u c1) */
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c: In function 'side':
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c:954:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   n = n->right;
+   ~~^~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c:956:2: note: here
+  case OEQ:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c: In function 'relindex':
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c:1130:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   diag(Z, "bad in relindex: %O", o);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/cc/sub.c:1131:2: note: here
+  case OEQ: return 0;
+  ^~~~
+pid: 16933, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/cc -o /var/tmp/go-cbuild-tap8Hw/y.tab.o /home/zeya/Workspaces/go/go/src/cmd/cc/y.tab.c (null)
+pid: 16936, exec  ar rsc /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/libcc.a /var/tmp/go-cbuild-tap8Hw/acid.o /var/tmp/go-cbuild-tap8Hw/bits.o /var/tmp/go-cbuild-tap8Hw/com.o /var/tmp/go-cbuild-tap8Hw/com64.o /var/tmp/go-cbuild-tap8Hw/dcl.o /var/tmp/go-cbuild-tap8Hw/dpchk.o /var/tmp/go-cbuild-tap8Hw/funct.o /var/tmp/go-cbuild-tap8Hw/godefs.o /var/tmp/go-cbuild-tap8Hw/lex.o /var/tmp/go-cbuild-tap8Hw/mac.o /var/tmp/go-cbuild-tap8Hw/omachcap.o /var/tmp/go-cbuild-tap8Hw/scon.o /var/tmp/go-cbuild-tap8Hw/sub.o /var/tmp/go-cbuild-tap8Hw/y.tab.o (null)
+cmd/gc
+pid: 16937, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/align.o /home/zeya/Workspaces/go/go/src/cmd/gc/align.c (null)
+pid: 16938, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/array.o /home/zeya/Workspaces/go/go/src/cmd/gc/array.c (null)
+pid: 16940, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/builtin.o /home/zeya/Workspaces/go/go/src/cmd/gc/builtin.c (null)
+pid: 16939, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/bits.o /home/zeya/Workspaces/go/go/src/cmd/gc/bits.c (null)
+pid: 16951, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/bv.o /home/zeya/Workspaces/go/go/src/cmd/gc/bv.c (null)
+pid: 16954, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/closure.o /home/zeya/Workspaces/go/go/src/cmd/gc/closure.c (null)
+pid: 16955, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/const.o /home/zeya/Workspaces/go/go/src/cmd/gc/const.c (null)
+pid: 16960, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/dcl.o /home/zeya/Workspaces/go/go/src/cmd/gc/dcl.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c: In function 'convlit1':
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c:224:12: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     n->val = toint(n->val);
+     ~~~~~~~^~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c:226:4: note: here
+    case CTINT:
+    ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c:238:12: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     n->val = toflt(n->val);
+     ~~~~~~~^~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c:240:4: note: here
+    case CTFLT:
+    ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c: In function 'tostr':
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c:470:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   yyerror("no float -> string");
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c:472:2: note: here
+  case CTNIL:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c: In function 'nodlit':
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c:1050:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("nodlit ctype %d", v.ctype);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c:1051:2: note: here
+  case CTSTR:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c: In function 'convconst':
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c:1427:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    fatal("convconst ctype=%d %lT", val->ctype, t);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/const.c:1428:3: note: here
+   case CTINT:
+   ^~~~
+pid: 16963, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/esc.o /home/zeya/Workspaces/go/go/src/cmd/gc/esc.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/esc.c: In function 'esccall':
+/home/zeya/Workspaces/go/go/src/cmd/gc/esc.c:898:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("esccall");
+   ^~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/esc.c:900:2: note: here
+  case OCALLFUNC:
+  ^~~~
+pid: 16966, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/export.o /home/zeya/Workspaces/go/go/src/cmd/gc/export.c (null)
+pid: 16969, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/fmt.o /home/zeya/Workspaces/go/go/src/cmd/gc/fmt.c (null)
+pid: 16972, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/gen.o /home/zeya/Workspaces/go/go/src/cmd/gc/gen.c (null)
+pid: 16975, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/init.o /home/zeya/Workspaces/go/go/src/cmd/gc/init.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/fmt.c: In function 'typefmt':
+/home/zeya/Workspaces/go/go/src/cmd/gc/fmt.c:624:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    if(fmtmode != FExp) {
+      ^
+/home/zeya/Workspaces/go/go/src/cmd/gc/fmt.c:628:3: note: here
+   default:
+   ^~~~~~~
+pid: 16978, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/inl.o /home/zeya/Workspaces/go/go/src/cmd/gc/inl.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/gen.c: In function 'cgen_proc':
+/home/zeya/Workspaces/go/go/src/cmd/gc/gen.c:550:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("cgen_proc: unknown call %O", n->left->op);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/gen.c:552:2: note: here
+  case OCALLMETH:
+  ^~~~
+pid: 16981, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -D GOEXPERIMENT="" -o /var/tmp/go-cbuild-tap8Hw/lex.o /home/zeya/Workspaces/go/go/src/cmd/gc/lex.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/lex.c: In function 'ccgetc':
+/home/zeya/Workspaces/go/go/src/cmd/gc/lex.c:1679:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(curio.bin != nil) {
+     ^
+/home/zeya/Workspaces/go/go/src/cmd/gc/lex.c:1683:2: note: here
+  case EOF:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/lex.c:1688:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   c = '\n';
+   ~~^~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/lex.c:1689:2: note: here
+  case '\n':
+  ^~~~
+pid: 16984, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/md5.o /home/zeya/Workspaces/go/go/src/cmd/gc/md5.c (null)
+pid: 16987, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/mparith1.o /home/zeya/Workspaces/go/go/src/cmd/gc/mparith1.c (null)
+pid: 16990, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/mparith2.o /home/zeya/Workspaces/go/go/src/cmd/gc/mparith2.c (null)
+pid: 16993, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/mparith3.o /home/zeya/Workspaces/go/go/src/cmd/gc/mparith3.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/mparith1.c: In function 'mpatoflt':
+/home/zeya/Workspaces/go/go/src/cmd/gc/mparith1.c:352:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    f = 1;
+    ~~^~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/mparith1.c:354:3: note: here
+   case ' ':
+   ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/mparith1.c:383:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    eb = 1;
+    ~~~^~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/mparith1.c:385:3: note: here
+   case 'E':
+   ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/mparith1.c: In function 'mpatofix':
+/home/zeya/Workspaces/go/go/src/cmd/gc/mparith1.c:468:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   f = 1;
+   ~~^~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/mparith1.c:470:2: note: here
+  case '+':
+  ^~~~
+pid: 16996, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/obj.o /home/zeya/Workspaces/go/go/src/cmd/gc/obj.c (null)
+pid: 16999, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/order.o /home/zeya/Workspaces/go/go/src/cmd/gc/order.c (null)
+pid: 17002, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/racewalk.o /home/zeya/Workspaces/go/go/src/cmd/gc/racewalk.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/order.c: In function 'orderstmt':
+/home/zeya/Workspaces/go/go/src/cmd/gc/order.c:732:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    fatal("orderstmt range %T", n->type);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/order.c:733:3: note: here
+   case TARRAY:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/order.c:511:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("orderstmt %O", n->op);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/order.c:513:2: note: here
+  case OVARKILL:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/order.c: In function 'ordersafeexpr':
+/home/zeya/Workspaces/go/go/src/cmd/gc/order.c:141:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("ordersafeexpr %O", n->op);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/order.c:143:2: note: here
+  case ONAME:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/order.c: In function 'ordermapassign':
+/home/zeya/Workspaces/go/go/src/cmd/gc/order.c:453:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("ordermapassign %O", n->op);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/order.c:455:2: note: here
+  case OAS:
+  ^~~~
+pid: 17005, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/range.o /home/zeya/Workspaces/go/go/src/cmd/gc/range.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/racewalk.c: In function 'racewalknode':
+/home/zeya/Workspaces/go/go/src/cmd/gc/racewalk.c:156:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("racewalk: unknown node type %O", n->op);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/racewalk.c:158:2: note: here
+  case OASOP:
+  ^~~~
+pid: 17008, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/reflect.o /home/zeya/Workspaces/go/go/src/cmd/gc/reflect.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/range.c: In function 'walkrange':
+/home/zeya/Workspaces/go/go/src/cmd/gc/range.c:144:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("walkrange");
+   ^~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/range.c:146:2: note: here
+  case TARRAY:
+  ^~~~
+pid: 17011, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/select.o /home/zeya/Workspaces/go/go/src/cmd/gc/select.c (null)
+pid: 17014, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/sinit.o /home/zeya/Workspaces/go/go/src/cmd/gc/sinit.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/select.c: In function 'walkselect':
+/home/zeya/Workspaces/go/go/src/cmd/gc/select.c:128:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     fatal("select %O", n->op);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/select.c:130:4: note: here
+    case OSEND:
+    ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/select.c:223:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    fatal("select %O", n->op);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/select.c:225:3: note: here
+   case OSEND:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/select.c:289:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     fatal("select %O", n->op);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/select.c:291:4: note: here
+    case OSEND:
+    ^~~~
+pid: 17017, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/subr.o /home/zeya/Workspaces/go/go/src/cmd/gc/subr.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/sinit.c: In function 'initplan':
+/home/zeya/Workspaces/go/go/src/cmd/gc/sinit.c:1375:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("initplan");
+   ^~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/sinit.c:1376:2: note: here
+  case OARRAYLIT:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/sinit.c: In function 'anylit':
+/home/zeya/Workspaces/go/go/src/cmd/gc/sinit.c:1040:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("anylit: not lit");
+   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/sinit.c:1042:2: note: here
+  case OPTRLIT:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/sinit.c: In function 'iszero':
+/home/zeya/Workspaces/go/go/src/cmd/gc/sinit.c:1451:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    fatal("iszero");
+    ^~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/sinit.c:1453:3: note: here
+   case CTNIL:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/subr.c: In function 'assignop':
+/home/zeya/Workspaces/go/go/src/cmd/gc/subr.c:1291:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    if(dst->bound != -100) // not slice
+      ^
+/home/zeya/Workspaces/go/go/src/cmd/gc/subr.c:1293:3: note: here
+   case TPTR32:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/subr.c: In function 'genhash':
+/home/zeya/Workspaces/go/go/src/cmd/gc/subr.c:2745:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("genhash %T", t);
+   ^~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/subr.c:2746:2: note: here
+  case TARRAY:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/subr.c: In function 'geneq':
+/home/zeya/Workspaces/go/go/src/cmd/gc/subr.c:2985:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("geneq %T", t);
+   ^~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/subr.c:2986:2: note: here
+  case TARRAY:
+  ^~~~
+pid: 17020, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/swt.o /home/zeya/Workspaces/go/go/src/cmd/gc/swt.c (null)
+pid: 17023, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/typecheck.o /home/zeya/Workspaces/go/go/src/cmd/gc/typecheck.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/typecheck.c: In function 'typecheck1':
+/home/zeya/Workspaces/go/go/src/cmd/gc/typecheck.c:336:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("typecheck %O", n->op);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/typecheck.c:341:2: note: here
+  case OLITERAL:
+  ^~~~
+pid: 17026, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/unsafe.o /home/zeya/Workspaces/go/go/src/cmd/gc/unsafe.c (null)
+pid: 17029, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/walk.o /home/zeya/Workspaces/go/go/src/cmd/gc/walk.c (null)
+pid: 17032, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/gc -o /var/tmp/go-cbuild-tap8Hw/y.tab.o /home/zeya/Workspaces/go/go/src/cmd/gc/y.tab.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/gc/walk.c: In function 'walkstmt':
+/home/zeya/Workspaces/go/go/src/cmd/gc/walk.c:220:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   n->op = OCASE;
+   ~~~~~~^~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/walk.c:221:2: note: here
+  case OCASE:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/walk.c: In function 'walkexpr':
+/home/zeya/Workspaces/go/go/src/cmd/gc/walk.c:1128:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("walkexpr ORECV"); // should see inside OAS only
+   ^~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/gc/walk.c:1130:2: note: here
+  case OSLICE:
+  ^~~~
+pid: 17035, exec  ar rsc /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/libgc.a /var/tmp/go-cbuild-tap8Hw/align.o /var/tmp/go-cbuild-tap8Hw/array.o /var/tmp/go-cbuild-tap8Hw/bits.o /var/tmp/go-cbuild-tap8Hw/builtin.o /var/tmp/go-cbuild-tap8Hw/bv.o /var/tmp/go-cbuild-tap8Hw/closure.o /var/tmp/go-cbuild-tap8Hw/const.o /var/tmp/go-cbuild-tap8Hw/dcl.o /var/tmp/go-cbuild-tap8Hw/esc.o /var/tmp/go-cbuild-tap8Hw/export.o /var/tmp/go-cbuild-tap8Hw/fmt.o /var/tmp/go-cbuild-tap8Hw/gen.o /var/tmp/go-cbuild-tap8Hw/init.o /var/tmp/go-cbuild-tap8Hw/inl.o /var/tmp/go-cbuild-tap8Hw/lex.o /var/tmp/go-cbuild-tap8Hw/md5.o /var/tmp/go-cbuild-tap8Hw/mparith1.o /var/tmp/go-cbuild-tap8Hw/mparith2.o /var/tmp/go-cbuild-tap8Hw/mparith3.o /var/tmp/go-cbuild-tap8Hw/obj.o /var/tmp/go-cbuild-tap8Hw/order.o /var/tmp/go-cbuild-tap8Hw/racewalk.o /var/tmp/go-cbuild-tap8Hw/range.o /var/tmp/go-cbuild-tap8Hw/reflect.o /var/tmp/go-cbuild-tap8Hw/select.o /var/tmp/go-cbuild-tap8Hw/sinit.o /var/tmp/go-cbuild-tap8Hw/subr.o /var/tmp/go-cbuild-tap8Hw/swt.o /var/tmp/go-cbuild-tap8Hw/typecheck.o /var/tmp/go-cbuild-tap8Hw/unsafe.o /var/tmp/go-cbuild-tap8Hw/walk.o /var/tmp/go-cbuild-tap8Hw/y.tab.o (null)
+cmd/6l
+pid: 17036, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/data.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/data.c (null)
+pid: 17037, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/decodesym.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/decodesym.c (null)
+pid: 17039, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/elf.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/elf.c (null)
+pid: 17038, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/dwarf.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/dwarf.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/elf.c: In function 'asmbelf':
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/elf.c:1141:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   errorexit();
+   ^~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/elf.c:1142:2: note: here
+  case '5':
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/data.c: In function 'relocsym':
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/data.c:315:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    diag("bad reloc size %#ux for %s", siz, r->sym->name);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/data.c:316:3: note: here
+   case 1:
+   ^~~~
+pid: 17048, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/go.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/go.c (null)
+pid: 17051, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/ldelf.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/ldelf.c (null)
+pid: 17054, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/ldmacho.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/ldmacho.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/ldelf.c: In function 'reltype':
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/ldelf.c:875:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   diag("%s: unknown relocation type %d; compiled without -fpic?", pn, elftype);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/ldelf.c:876:2: note: here
+  case R('5', R_ARM_ABS32):
+  ^~~~
+pid: 17057, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/ldpe.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/ldpe.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/ldpe.c: In function 'ldpe':
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/ldpe.c:298:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      diag("%s: unknown relocation type %d;", pn, type);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/ldpe.c:299:5: note: here
+     case IMAGE_REL_I386_REL32:
+     ^~~~
+pid: 17060, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/lib.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/lib.c (null)
+pid: 17061, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/macho.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/macho.c (null)
+pid: 17066, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/pcln.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/pcln.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/macho.c: In function 'asmbmacho':
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/macho.c:358:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   errorexit();
+   ^~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/macho.c:359:2: note: here
+  case '6':
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/macho.c:417:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    errorexit();
+    ^~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/macho.c:418:3: note: here
+   case '6':
+   ^~~~
+pid: 17069, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/pe.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/pe.c (null)
+pid: 17072, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/pobj.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/pobj.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/pe.c: In function 'asmbpe':
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/pe.c:617:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   errorexit();
+   ^~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/pe.c:618:2: note: here
+  case '6':
+  ^~~~
+pid: 17075, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/symtab.o /home/zeya/Workspaces/go/go/src/cmd/6l/../ld/symtab.c (null)
+pid: 17078, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/asm.o /home/zeya/Workspaces/go/go/src/cmd/6l/asm.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/symtab.c: In function 'putplan9sym':
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/symtab.c:246:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(ver)
+     ^
+/home/zeya/Workspaces/go/go/src/cmd/6l/../ld/symtab.c:248:2: note: here
+  case 'a':
+  ^~~~
+pid: 17081, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/list.o /home/zeya/Workspaces/go/go/src/cmd/6l/list.c (null)
+pid: 17084, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6l -o /var/tmp/go-cbuild-tap8Hw/obj.o /home/zeya/Workspaces/go/go/src/cmd/6l/obj.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6l/obj.c: In function 'archinit':
+/home/zeya/Workspaces/go/go/src/cmd/6l/obj.c:86:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   errorexit();
+   ^~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6l/obj.c:87:2: note: here
+  case Hplan9:  /* plan 9 */
+  ^~~~
+pid: 17090, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -o /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6l -m64 /var/tmp/go-cbuild-tap8Hw/data.o /var/tmp/go-cbuild-tap8Hw/decodesym.o /var/tmp/go-cbuild-tap8Hw/dwarf.o /var/tmp/go-cbuild-tap8Hw/elf.o /var/tmp/go-cbuild-tap8Hw/go.o /var/tmp/go-cbuild-tap8Hw/ldelf.o /var/tmp/go-cbuild-tap8Hw/ldmacho.o /var/tmp/go-cbuild-tap8Hw/ldpe.o /var/tmp/go-cbuild-tap8Hw/lib.o /var/tmp/go-cbuild-tap8Hw/macho.o /var/tmp/go-cbuild-tap8Hw/pcln.o /var/tmp/go-cbuild-tap8Hw/pe.o /var/tmp/go-cbuild-tap8Hw/pobj.o /var/tmp/go-cbuild-tap8Hw/symtab.o /var/tmp/go-cbuild-tap8Hw/asm.o /var/tmp/go-cbuild-tap8Hw/list.o /var/tmp/go-cbuild-tap8Hw/obj.o /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/liblink.a /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/libbio.a /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/lib9.a -lm (null)
+cmd/6a
+pid: 17093, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6a -D GOEXPERIMENT="" -o /var/tmp/go-cbuild-tap8Hw/lex.o /home/zeya/Workspaces/go/go/src/cmd/6a/lex.c (null)
+pid: 17094, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6a -o /var/tmp/go-cbuild-tap8Hw/y.tab.o /home/zeya/Workspaces/go/go/src/cmd/6a/y.tab.c (null)
+pid: 17099, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -o /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -m64 /var/tmp/go-cbuild-tap8Hw/lex.o /var/tmp/go-cbuild-tap8Hw/y.tab.o /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/liblink.a /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/libbio.a /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/lib9.a -lm (null)
+cmd/6c
+pid: 17103, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6c -o /var/tmp/go-cbuild-tap8Hw/pswt.o /home/zeya/Workspaces/go/go/src/cmd/6c/../cc/pswt.c (null)
+pid: 17104, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6c -o /var/tmp/go-cbuild-tap8Hw/cgen.o /home/zeya/Workspaces/go/go/src/cmd/6c/cgen.c (null)
+pid: 17102, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6c -o /var/tmp/go-cbuild-tap8Hw/pgen.o /home/zeya/Workspaces/go/go/src/cmd/6c/../cc/pgen.c (null)
+pid: 17105, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6c -o /var/tmp/go-cbuild-tap8Hw/div.o /home/zeya/Workspaces/go/go/src/cmd/6c/div.c (null)
+pid: 17114, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6c -o /var/tmp/go-cbuild-tap8Hw/list.o /home/zeya/Workspaces/go/go/src/cmd/6c/list.c (null)
+pid: 17117, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6c -o /var/tmp/go-cbuild-tap8Hw/machcap.o /home/zeya/Workspaces/go/go/src/cmd/6c/machcap.c (null)
+pid: 17120, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6c -o /var/tmp/go-cbuild-tap8Hw/mul.o /home/zeya/Workspaces/go/go/src/cmd/6c/mul.c (null)
+pid: 17123, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6c -o /var/tmp/go-cbuild-tap8Hw/peep.o /home/zeya/Workspaces/go/go/src/cmd/6c/peep.c (null)
+pid: 17126, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6c -o /var/tmp/go-cbuild-tap8Hw/reg.o /home/zeya/Workspaces/go/go/src/cmd/6c/reg.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6c/peep.c: In function 'peep':
+/home/zeya/Workspaces/go/go/src/cmd/6c/peep.c:111:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    t++;
+    ~^~
+/home/zeya/Workspaces/go/go/src/cmd/6c/peep.c:113:3: note: here
+   case ADATA:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/6c/peep.c: In function 'copyu':
+/home/zeya/Workspaces/go/go/src/cmd/6c/peep.c:573:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(copyas(&p->from, v))
+     ^
+/home/zeya/Workspaces/go/go/src/cmd/6c/peep.c:577:2: note: here
+  case ANOP: /* rhs store */
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/6c/peep.c:747:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(p->to.type != D_NONE) {
+     ^
+/home/zeya/Workspaces/go/go/src/cmd/6c/peep.c:753:2: note: here
+  case ADIVB:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/6c/reg.c: In function 'regopt':
+/home/zeya/Workspaces/go/go/src/cmd/6c/reg.c:340:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    if(p->to.type != D_NONE)
+      ^
+/home/zeya/Workspaces/go/go/src/cmd/6c/reg.c:343:3: note: here
+   case AIDIVB:
+   ^~~~
+pid: 17129, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6c -o /var/tmp/go-cbuild-tap8Hw/sgen.o /home/zeya/Workspaces/go/go/src/cmd/6c/sgen.c (null)
+pid: 17132, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6c -o /var/tmp/go-cbuild-tap8Hw/swt.o /home/zeya/Workspaces/go/go/src/cmd/6c/swt.c (null)
+pid: 17135, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6c -o /var/tmp/go-cbuild-tap8Hw/txt.o /home/zeya/Workspaces/go/go/src/cmd/6c/txt.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6c/txt.c: In function 'gmove':
+/home/zeya/Workspaces/go/go/src/cmd/6c/txt.c:995:28: warning: left shift of negative value [-Wshift-negative-value]
+     f->vconst |= (vlong)~0 << 32;
+                            ^~
+/home/zeya/Workspaces/go/go/src/cmd/6c/txt.c:1045:28: warning: left shift of negative value [-Wshift-negative-value]
+     f->vconst |= (vlong)~0 << 32;
+                            ^~
+/home/zeya/Workspaces/go/go/src/cmd/6c/txt.c:762:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(typefd[tt]) {
+     ^
+/home/zeya/Workspaces/go/go/src/cmd/6c/txt.c:773:2: note: here
+  case TUVLONG:
+  ^~~~
+pid: 17138, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -o /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -m64 /var/tmp/go-cbuild-tap8Hw/pgen.o /var/tmp/go-cbuild-tap8Hw/pswt.o /var/tmp/go-cbuild-tap8Hw/cgen.o /var/tmp/go-cbuild-tap8Hw/div.o /var/tmp/go-cbuild-tap8Hw/list.o /var/tmp/go-cbuild-tap8Hw/machcap.o /var/tmp/go-cbuild-tap8Hw/mul.o /var/tmp/go-cbuild-tap8Hw/peep.o /var/tmp/go-cbuild-tap8Hw/reg.o /var/tmp/go-cbuild-tap8Hw/sgen.o /var/tmp/go-cbuild-tap8Hw/swt.o /var/tmp/go-cbuild-tap8Hw/txt.o /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/libcc.a /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/liblink.a /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/libbio.a /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/lib9.a -lm (null)
+cmd/6g
+pid: 17141, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6g -o /var/tmp/go-cbuild-tap8Hw/cplx.o /home/zeya/Workspaces/go/go/src/cmd/6g/../gc/cplx.c (null)
+pid: 17142, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6g -o /var/tmp/go-cbuild-tap8Hw/pgen.o /home/zeya/Workspaces/go/go/src/cmd/6g/../gc/pgen.c (null)
+pid: 17143, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6g -o /var/tmp/go-cbuild-tap8Hw/plive.o /home/zeya/Workspaces/go/go/src/cmd/6g/../gc/plive.c (null)
+pid: 17144, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6g -o /var/tmp/go-cbuild-tap8Hw/popt.o /home/zeya/Workspaces/go/go/src/cmd/6g/../gc/popt.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6g/../gc/cplx.c: In function 'complexmove':
+/home/zeya/Workspaces/go/go/src/cmd/6g/../gc/cplx.c:54:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("complexmove: unknown conversion: %T -> %T\n",
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    f->type, t->type);
+    ~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/../gc/cplx.c:57:2: note: here
+  case CASE(TCOMPLEX64,TCOMPLEX64):
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/../gc/cplx.c: In function 'complexgen':
+/home/zeya/Workspaces/go/go/src/cmd/6g/../gc/cplx.c:199:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("complexgen: unknown op %O", n->op);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/../gc/cplx.c:201:2: note: here
+  case ODOT:
+  ^~~~
+pid: 17153, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6g -o /var/tmp/go-cbuild-tap8Hw/cgen.o /home/zeya/Workspaces/go/go/src/cmd/6g/cgen.c (null)
+pid: 17156, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6g -o /var/tmp/go-cbuild-tap8Hw/galign.o /home/zeya/Workspaces/go/go/src/cmd/6g/galign.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6g/cgen.c: In function 'bgen':
+/home/zeya/Workspaces/go/go/src/cmd/6g/cgen.c:1127:14: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if(nr == N || nr->type == T)
+/home/zeya/Workspaces/go/go/src/cmd/6g/cgen.c:1130:2: note: here
+  case ONOT: // unary
+  ^~~~
+pid: 17159, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6g -o /var/tmp/go-cbuild-tap8Hw/ggen.o /home/zeya/Workspaces/go/go/src/cmd/6g/ggen.c (null)
+pid: 17165, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6g -o /var/tmp/go-cbuild-tap8Hw/gobj.o /home/zeya/Workspaces/go/go/src/cmd/6g/gobj.c (null)
+pid: 17168, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6g -o /var/tmp/go-cbuild-tap8Hw/gsubr.o /home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c: In function 'regalloc':
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c:373:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("out of fixed registers");
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c:375:2: note: here
+  case TFLOAT32:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c:385:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("out of floating registers");
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c:387:2: note: here
+  case TCOMPLEX64:
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c: In function 'gmove':
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c:684:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("gmove %lT -> %lT", f->type, t->type);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c:689:2: note: here
+  case CASE(TINT8, TINT8): // same size
+  ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c: In function 'naddr':
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c:1215:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    fatal("naddr: ONAME class %S %d\n", n->sym, n->class);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c:1216:3: note: here
+   case PEXTERN:
+   ^~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c:1281:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("naddr: OADDR\n");
+   ^~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/gsubr.c:1283:2: note: here
+  case OITAB:
+  ^~~~
+pid: 17171, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6g -o /var/tmp/go-cbuild-tap8Hw/peep.o /home/zeya/Workspaces/go/go/src/cmd/6g/peep.c (null)
+pid: 17174, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6g -o /var/tmp/go-cbuild-tap8Hw/prog.o /home/zeya/Workspaces/go/go/src/cmd/6g/prog.c (null)
+pid: 17177, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -c -m64 -I /home/zeya/Workspaces/go/go/include -I /home/zeya/Workspaces/go/go/src/cmd/6g -o /var/tmp/go-cbuild-tap8Hw/reg.o /home/zeya/Workspaces/go/go/src/cmd/6g/reg.c (null)
+/home/zeya/Workspaces/go/go/src/cmd/6g/reg.c: In function 'addmove':
+/home/zeya/Workspaces/go/go/src/cmd/6g/reg.c:525:3: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   fatal("unknown type %E", v->etype);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/zeya/Workspaces/go/go/src/cmd/6g/reg.c:526:2: note: here
+  case TINT8:
+  ^~~~
+pid: 17180, exec  gcc -Wall -Wstrict-prototypes -Wextra -Wunused -Wno-sign-compare -Wno-missing-braces -Wno-parentheses -Wno-unknown-pragmas -Wno-switch -Wno-comment -Wno-missing-field-initializers -fno-common -ggdb -pipe -Wuninitialized -O2 -fmessage-length=0 -o /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -m64 /var/tmp/go-cbuild-tap8Hw/cplx.o /var/tmp/go-cbuild-tap8Hw/pgen.o /var/tmp/go-cbuild-tap8Hw/plive.o /var/tmp/go-cbuild-tap8Hw/popt.o /var/tmp/go-cbuild-tap8Hw/cgen.o /var/tmp/go-cbuild-tap8Hw/galign.o /var/tmp/go-cbuild-tap8Hw/ggen.o /var/tmp/go-cbuild-tap8Hw/gobj.o /var/tmp/go-cbuild-tap8Hw/gsubr.o /var/tmp/go-cbuild-tap8Hw/peep.o /var/tmp/go-cbuild-tap8Hw/prog.o /var/tmp/go-cbuild-tap8Hw/reg.o /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/libgc.a /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/liblink.a /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/libbio.a /home/zeya/Workspaces/go/go/pkg/obj/linux_amd64/lib9.a -lm (null)
+runtime
+pid: 17183, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -D GOOS_linux -D GOARCH_amd64 -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -n -a -o /var/tmp/go-cbuild-tap8Hw/proc.acid proc.c (null)
+pid: 17184, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -D GOOS_linux -D GOARCH_amd64 -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -q -n -o /var/tmp/go-cbuild-tap8Hw/runtimedefs defs.c (null)
+pid: 17185, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -D GOOS_linux -D GOARCH_amd64 -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -q -n -o /var/tmp/go-cbuild-tap8Hw/runtimedefs malloc.c (null)
+pid: 17186, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -D GOOS_linux -D GOARCH_amd64 -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -q -n -o /var/tmp/go-cbuild-tap8Hw/runtimedefs mcache.c (null)
+pid: 17187, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -D GOOS_linux -D GOARCH_amd64 -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -q -n -o /var/tmp/go-cbuild-tap8Hw/runtimedefs mgc0.c (null)
+pid: 17188, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -D GOOS_linux -D GOARCH_amd64 -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -q -n -o /var/tmp/go-cbuild-tap8Hw/runtimedefs proc.c (null)
+pid: 17189, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -D GOOS_linux -D GOARCH_amd64 -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -q -n -o /var/tmp/go-cbuild-tap8Hw/runtimedefs parfor.c (null)
+pid: 17190, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -D GOOS_linux -D GOARCH_amd64 -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -q -n -o /var/tmp/go-cbuild-tap8Hw/runtimedefs stack.c (null)
+pid: 17191, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/asm.o /home/zeya/Workspaces/go/go/src/runtime/asm.s (null)
+pid: 17192, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/asm_amd64.o /home/zeya/Workspaces/go/go/src/runtime/asm_amd64.s (null)
+pid: 17194, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/defs.o /home/zeya/Workspaces/go/go/src/runtime/defs.c (null)
+pid: 17193, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/atomic_amd64x.o /home/zeya/Workspaces/go/go/src/runtime/atomic_amd64x.c (null)
+pid: 17195, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/float.o /home/zeya/Workspaces/go/go/src/runtime/float.c (null)
+pid: 17196, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/heapdump.o /home/zeya/Workspaces/go/go/src/runtime/heapdump.c (null)
+pid: 17197, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/lfstack.o /home/zeya/Workspaces/go/go/src/runtime/lfstack.c (null)
+pid: 17198, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/malloc.o /home/zeya/Workspaces/go/go/src/runtime/malloc.c (null)
+pid: 17199, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/mcache.o /home/zeya/Workspaces/go/go/src/runtime/mcache.c (null)
+pid: 17200, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/mcentral.o /home/zeya/Workspaces/go/go/src/runtime/mcentral.c (null)
+pid: 17201, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/mem_linux.o /home/zeya/Workspaces/go/go/src/runtime/mem_linux.c (null)
+pid: 17202, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/memclr_amd64.o /home/zeya/Workspaces/go/go/src/runtime/memclr_amd64.s (null)
+pid: 17203, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/memmove_amd64.o /home/zeya/Workspaces/go/go/src/runtime/memmove_amd64.s (null)
+pid: 17204, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/mfixalloc.o /home/zeya/Workspaces/go/go/src/runtime/mfixalloc.c (null)
+pid: 17205, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/mgc0.o /home/zeya/Workspaces/go/go/src/runtime/mgc0.c (null)
+pid: 17206, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/mheap.o /home/zeya/Workspaces/go/go/src/runtime/mheap.c (null)
+pid: 17207, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/msize.o /home/zeya/Workspaces/go/go/src/runtime/msize.c (null)
+pid: 17208, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/os_linux.o /home/zeya/Workspaces/go/go/src/runtime/os_linux.c (null)
+pid: 17210, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/parfor.o /home/zeya/Workspaces/go/go/src/runtime/parfor.c (null)
+pid: 17209, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/panic.o /home/zeya/Workspaces/go/go/src/runtime/panic.c (null)
+pid: 17211, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/proc.o /home/zeya/Workspaces/go/go/src/runtime/proc.c (null)
+pid: 17212, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/rt0_linux_amd64.o /home/zeya/Workspaces/go/go/src/runtime/rt0_linux_amd64.s (null)
+pid: 17213, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/runtime.o /home/zeya/Workspaces/go/go/src/runtime/runtime.c (null)
+pid: 17214, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/signal.o /home/zeya/Workspaces/go/go/src/runtime/signal.c (null)
+pid: 17215, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/signal_amd64x.o /home/zeya/Workspaces/go/go/src/runtime/signal_amd64x.c (null)
+pid: 17216, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/signal_unix.o /home/zeya/Workspaces/go/go/src/runtime/signal_unix.c (null)
+pid: 17217, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/stack.o /home/zeya/Workspaces/go/go/src/runtime/stack.c (null)
+pid: 17218, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/string.o /home/zeya/Workspaces/go/go/src/runtime/string.c (null)
+pid: 17219, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/sys_linux_amd64.o /home/zeya/Workspaces/go/go/src/runtime/sys_linux_amd64.s (null)
+pid: 17220, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/sys_x86.o /home/zeya/Workspaces/go/go/src/runtime/sys_x86.c (null)
+pid: 17221, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/thunk.o /home/zeya/Workspaces/go/go/src/runtime/thunk.s (null)
+pid: 17222, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6c -F -V -w -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/vdso_linux_amd64.o /home/zeya/Workspaces/go/go/src/runtime/vdso_linux_amd64.c (null)
+pid: 17223, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/zsys_linux_amd64.o /home/zeya/Workspaces/go/go/src/runtime/zsys_linux_amd64.s (null)
+pid: 17224, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main -+ /home/zeya/Workspaces/go/go/src/runtime/alg.go /home/zeya/Workspaces/go/go/src/runtime/arch_amd64.go /home/zeya/Workspaces/go/go/src/runtime/atomic.go /home/zeya/Workspaces/go/go/src/runtime/cgocall.go /home/zeya/Workspaces/go/go/src/runtime/cgocallback.go /home/zeya/Workspaces/go/go/src/runtime/chan.go /home/zeya/Workspaces/go/go/src/runtime/compiler.go /home/zeya/Workspaces/go/go/src/runtime/complex.go /home/zeya/Workspaces/go/go/src/runtime/cpuprof.go /home/zeya/Workspaces/go/go/src/runtime/debug.go /home/zeya/Workspaces/go/go/src/runtime/env_posix.go /home/zeya/Workspaces/go/go/src/runtime/error.go /home/zeya/Workspaces/go/go/src/runtime/extern.go /home/zeya/Workspaces/go/go/src/runtime/hashmap.go /home/zeya/Workspaces/go/go/src/runtime/hashmap_fast.go /home/zeya/Workspaces/go/go/src/runtime/iface.go /home/zeya/Workspaces/go/go/src/runtime/lock_futex.go /home/zeya/Workspaces/go/go/src/runtime/malloc.go /home/zeya/Workspaces/go/go/src/runtime/mem.go /home/zeya/Workspaces/go/go/src/runtime/mgc0.go /home/zeya/Workspaces/go/go/src/runtime/mprof.go /home/zeya/Workspaces/go/go/src/runtime/netpoll.go /home/zeya/Workspaces/go/go/src/runtime/netpoll_epoll.go /home/zeya/Workspaces/go/go/src/runtime/os_linux.go /home/zeya/Workspaces/go/go/src/runtime/panic.go /home/zeya/Workspaces/go/go/src/runtime/print1.go /home/zeya/Workspaces/go/go/src/runtime/proc.go /home/zeya/Workspaces/go/go/src/runtime/race0.go /home/zeya/Workspaces/go/go/src/runtime/rdebug.go /home/zeya/Workspaces/go/go/src/runtime/rune.go /home/zeya/Workspaces/go/go/src/runtime/runtime.go /home/zeya/Workspaces/go/go/src/runtime/select.go /home/zeya/Workspaces/go/go/src/runtime/sema.go /home/zeya/Workspaces/go/go/src/runtime/signal_unix.go /home/zeya/Workspaces/go/go/src/runtime/sigpanic_unix.go /home/zeya/Workspaces/go/go/src/runtime/sigqueue.go /home/zeya/Workspaces/go/go/src/runtime/slice.go /home/zeya/Workspaces/go/go/src/runtime/softfloat64.go /home/zeya/Workspaces/go/go/src/runtime/sqrt.go /home/zeya/Workspaces/go/go/src/runtime/stack.go /home/zeya/Workspaces/go/go/src/runtime/string.go /home/zeya/Workspaces/go/go/src/runtime/stubs.go /home/zeya/Workspaces/go/go/src/runtime/symtab.go /home/zeya/Workspaces/go/go/src/runtime/time.go /home/zeya/Workspaces/go/go/src/runtime/traceback.go /home/zeya/Workspaces/go/go/src/runtime/typekind.go /home/zeya/Workspaces/go/go/src/runtime/zgoarch_amd64.go /home/zeya/Workspaces/go/go/src/runtime/zgoos_linux.go /home/zeya/Workspaces/go/go/src/runtime/zruntime_defs_linux_amd64.go /home/zeya/Workspaces/go/go/src/runtime/zversion.go (null)
+errors
+pid: 17225, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/errors/errors.go (null)
+sync/atomic
+pid: 17226, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/asm_amd64.o /home/zeya/Workspaces/go/go/src/sync/atomic/asm_amd64.s (null)
+pid: 17227, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/sync/atomic/doc.go /home/zeya/Workspaces/go/go/src/sync/atomic/value.go (null)
+sync
+pid: 17228, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/sync/cond.go /home/zeya/Workspaces/go/go/src/sync/mutex.go /home/zeya/Workspaces/go/go/src/sync/once.go /home/zeya/Workspaces/go/go/src/sync/pool.go /home/zeya/Workspaces/go/go/src/sync/race0.go /home/zeya/Workspaces/go/go/src/sync/runtime.go /home/zeya/Workspaces/go/go/src/sync/rwmutex.go /home/zeya/Workspaces/go/go/src/sync/waitgroup.go (null)
+io
+pid: 17229, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/io/io.go /home/zeya/Workspaces/go/go/src/io/multi.go /home/zeya/Workspaces/go/go/src/io/pipe.go (null)
+unicode
+pid: 17230, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/unicode/casetables.go /home/zeya/Workspaces/go/go/src/unicode/digit.go /home/zeya/Workspaces/go/go/src/unicode/graphic.go /home/zeya/Workspaces/go/go/src/unicode/letter.go /home/zeya/Workspaces/go/go/src/unicode/tables.go (null)
+unicode/utf8
+pid: 17231, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/unicode/utf8/utf8.go (null)
+unicode/utf16
+pid: 17232, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/unicode/utf16/utf16.go (null)
+bytes
+pid: 17233, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/bytes/buffer.go /home/zeya/Workspaces/go/go/src/bytes/bytes.go /home/zeya/Workspaces/go/go/src/bytes/bytes_decl.go /home/zeya/Workspaces/go/go/src/bytes/reader.go (null)
+math
+pid: 17234, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/abs_amd64.o /home/zeya/Workspaces/go/go/src/math/abs_amd64.s (null)
+pid: 17235, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/asin_amd64.o /home/zeya/Workspaces/go/go/src/math/asin_amd64.s (null)
+pid: 17237, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/atan_amd64.o /home/zeya/Workspaces/go/go/src/math/atan_amd64.s (null)
+pid: 17236, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/atan2_amd64.o /home/zeya/Workspaces/go/go/src/math/atan2_amd64.s (null)
+pid: 17239, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/exp2_amd64.o /home/zeya/Workspaces/go/go/src/math/exp2_amd64.s (null)
+pid: 17238, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/dim_amd64.o /home/zeya/Workspaces/go/go/src/math/dim_amd64.s (null)
+pid: 17240, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/exp_amd64.o /home/zeya/Workspaces/go/go/src/math/exp_amd64.s (null)
+pid: 17241, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/expm1_amd64.o /home/zeya/Workspaces/go/go/src/math/expm1_amd64.s (null)
+pid: 17242, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/floor_amd64.o /home/zeya/Workspaces/go/go/src/math/floor_amd64.s (null)
+pid: 17243, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/frexp_amd64.o /home/zeya/Workspaces/go/go/src/math/frexp_amd64.s (null)
+pid: 17245, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/ldexp_amd64.o /home/zeya/Workspaces/go/go/src/math/ldexp_amd64.s (null)
+pid: 17244, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/hypot_amd64.o /home/zeya/Workspaces/go/go/src/math/hypot_amd64.s (null)
+pid: 17246, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/log10_amd64.o /home/zeya/Workspaces/go/go/src/math/log10_amd64.s (null)
+pid: 17248, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/log_amd64.o /home/zeya/Workspaces/go/go/src/math/log_amd64.s (null)
+pid: 17247, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/log1p_amd64.o /home/zeya/Workspaces/go/go/src/math/log1p_amd64.s (null)
+pid: 17249, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/mod_amd64.o /home/zeya/Workspaces/go/go/src/math/mod_amd64.s (null)
+pid: 17250, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/modf_amd64.o /home/zeya/Workspaces/go/go/src/math/modf_amd64.s (null)
+pid: 17251, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/remainder_amd64.o /home/zeya/Workspaces/go/go/src/math/remainder_amd64.s (null)
+pid: 17253, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/sincos_amd64.o /home/zeya/Workspaces/go/go/src/math/sincos_amd64.s (null)
+pid: 17252, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/sin_amd64.o /home/zeya/Workspaces/go/go/src/math/sin_amd64.s (null)
+pid: 17254, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/sqrt_amd64.o /home/zeya/Workspaces/go/go/src/math/sqrt_amd64.s (null)
+pid: 17255, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/tan_amd64.o /home/zeya/Workspaces/go/go/src/math/tan_amd64.s (null)
+pid: 17256, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/math/abs.go /home/zeya/Workspaces/go/go/src/math/acosh.go /home/zeya/Workspaces/go/go/src/math/asin.go /home/zeya/Workspaces/go/go/src/math/asinh.go /home/zeya/Workspaces/go/go/src/math/atan.go /home/zeya/Workspaces/go/go/src/math/atan2.go /home/zeya/Workspaces/go/go/src/math/atanh.go /home/zeya/Workspaces/go/go/src/math/bits.go /home/zeya/Workspaces/go/go/src/math/cbrt.go /home/zeya/Workspaces/go/go/src/math/const.go /home/zeya/Workspaces/go/go/src/math/copysign.go /home/zeya/Workspaces/go/go/src/math/dim.go /home/zeya/Workspaces/go/go/src/math/erf.go /home/zeya/Workspaces/go/go/src/math/exp.go /home/zeya/Workspaces/go/go/src/math/expm1.go /home/zeya/Workspaces/go/go/src/math/floor.go /home/zeya/Workspaces/go/go/src/math/frexp.go /home/zeya/Workspaces/go/go/src/math/gamma.go /home/zeya/Workspaces/go/go/src/math/hypot.go /home/zeya/Workspaces/go/go/src/math/j0.go /home/zeya/Workspaces/go/go/src/math/j1.go /home/zeya/Workspaces/go/go/src/math/jn.go /home/zeya/Workspaces/go/go/src/math/ldexp.go /home/zeya/Workspaces/go/go/src/math/lgamma.go /home/zeya/Workspaces/go/go/src/math/log.go /home/zeya/Workspaces/go/go/src/math/log10.go /home/zeya/Workspaces/go/go/src/math/log1p.go /home/zeya/Workspaces/go/go/src/math/logb.go /home/zeya/Workspaces/go/go/src/math/mod.go /home/zeya/Workspaces/go/go/src/math/modf.go /home/zeya/Workspaces/go/go/src/math/nextafter.go /home/zeya/Workspaces/go/go/src/math/pow.go /home/zeya/Workspaces/go/go/src/math/pow10.go /home/zeya/Workspaces/go/go/src/math/remainder.go /home/zeya/Workspaces/go/go/src/math/signbit.go /home/zeya/Workspaces/go/go/src/math/sin.go /home/zeya/Workspaces/go/go/src/math/sincos.go /home/zeya/Workspaces/go/go/src/math/sinh.go /home/zeya/Workspaces/go/go/src/math/sqrt.go /home/zeya/Workspaces/go/go/src/math/tan.go /home/zeya/Workspaces/go/go/src/math/tanh.go /home/zeya/Workspaces/go/go/src/math/unsafe.go (null)
+strings
+pid: 17257, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/strings.o /home/zeya/Workspaces/go/go/src/strings/strings.s (null)
+pid: 17258, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/strings/reader.go /home/zeya/Workspaces/go/go/src/strings/replace.go /home/zeya/Workspaces/go/go/src/strings/search.go /home/zeya/Workspaces/go/go/src/strings/strings.go /home/zeya/Workspaces/go/go/src/strings/strings_decl.go (null)
+strconv
+pid: 17259, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/strconv/atob.go /home/zeya/Workspaces/go/go/src/strconv/atof.go /home/zeya/Workspaces/go/go/src/strconv/atoi.go /home/zeya/Workspaces/go/go/src/strconv/decimal.go /home/zeya/Workspaces/go/go/src/strconv/extfloat.go /home/zeya/Workspaces/go/go/src/strconv/ftoa.go /home/zeya/Workspaces/go/go/src/strconv/isprint.go /home/zeya/Workspaces/go/go/src/strconv/itoa.go /home/zeya/Workspaces/go/go/src/strconv/quote.go (null)
+bufio
+pid: 17260, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/bufio/bufio.go /home/zeya/Workspaces/go/go/src/bufio/scan.go (null)
+sort
+pid: 17261, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/sort/search.go /home/zeya/Workspaces/go/go/src/sort/sort.go (null)
+container/heap
+pid: 17262, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/container/heap/heap.go (null)
+encoding/base64
+pid: 17263, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/encoding/base64/base64.go (null)
+syscall
+pid: 17264, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/asm.o /home/zeya/Workspaces/go/go/src/syscall/asm.s (null)
+pid: 17265, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/asm_linux_amd64.o /home/zeya/Workspaces/go/go/src/syscall/asm_linux_amd64.s (null)
+pid: 17266, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/syscall/env_unix.go /home/zeya/Workspaces/go/go/src/syscall/exec_linux.go /home/zeya/Workspaces/go/go/src/syscall/exec_unix.go /home/zeya/Workspaces/go/go/src/syscall/flock.go /home/zeya/Workspaces/go/go/src/syscall/lsf_linux.go /home/zeya/Workspaces/go/go/src/syscall/netlink_linux.go /home/zeya/Workspaces/go/go/src/syscall/race0.go /home/zeya/Workspaces/go/go/src/syscall/sockcmsg_linux.go /home/zeya/Workspaces/go/go/src/syscall/sockcmsg_unix.go /home/zeya/Workspaces/go/go/src/syscall/str.go /home/zeya/Workspaces/go/go/src/syscall/syscall.go /home/zeya/Workspaces/go/go/src/syscall/syscall_linux.go /home/zeya/Workspaces/go/go/src/syscall/syscall_linux_amd64.go /home/zeya/Workspaces/go/go/src/syscall/syscall_unix.go /home/zeya/Workspaces/go/go/src/syscall/zerrors_linux_amd64.go /home/zeya/Workspaces/go/go/src/syscall/zsyscall_linux_amd64.go /home/zeya/Workspaces/go/go/src/syscall/zsysnum_linux_amd64.go /home/zeya/Workspaces/go/go/src/syscall/ztypes_linux_amd64.go (null)
+time
+pid: 17267, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/time/format.go /home/zeya/Workspaces/go/go/src/time/sleep.go /home/zeya/Workspaces/go/go/src/time/sys_unix.go /home/zeya/Workspaces/go/go/src/time/tick.go /home/zeya/Workspaces/go/go/src/time/time.go /home/zeya/Workspaces/go/go/src/time/zoneinfo.go /home/zeya/Workspaces/go/go/src/time/zoneinfo_read.go /home/zeya/Workspaces/go/go/src/time/zoneinfo_unix.go (null)
+os
+pid: 17268, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/os/dir_unix.go /home/zeya/Workspaces/go/go/src/os/doc.go /home/zeya/Workspaces/go/go/src/os/env.go /home/zeya/Workspaces/go/go/src/os/error.go /home/zeya/Workspaces/go/go/src/os/error_unix.go /home/zeya/Workspaces/go/go/src/os/exec.go /home/zeya/Workspaces/go/go/src/os/exec_posix.go /home/zeya/Workspaces/go/go/src/os/exec_unix.go /home/zeya/Workspaces/go/go/src/os/file.go /home/zeya/Workspaces/go/go/src/os/file_posix.go /home/zeya/Workspaces/go/go/src/os/file_unix.go /home/zeya/Workspaces/go/go/src/os/getwd.go /home/zeya/Workspaces/go/go/src/os/path.go /home/zeya/Workspaces/go/go/src/os/path_unix.go /home/zeya/Workspaces/go/go/src/os/pipe_linux.go /home/zeya/Workspaces/go/go/src/os/proc.go /home/zeya/Workspaces/go/go/src/os/stat_linux.go /home/zeya/Workspaces/go/go/src/os/sys_linux.go /home/zeya/Workspaces/go/go/src/os/sys_unix.go /home/zeya/Workspaces/go/go/src/os/types.go /home/zeya/Workspaces/go/go/src/os/types_notwin.go (null)
+reflect
+pid: 17269, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/asm_amd64.o /home/zeya/Workspaces/go/go/src/reflect/asm_amd64.s (null)
+pid: 17270, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/reflect/deepequal.go /home/zeya/Workspaces/go/go/src/reflect/makefunc.go /home/zeya/Workspaces/go/go/src/reflect/type.go /home/zeya/Workspaces/go/go/src/reflect/value.go (null)
+fmt
+pid: 17271, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/fmt/doc.go /home/zeya/Workspaces/go/go/src/fmt/format.go /home/zeya/Workspaces/go/go/src/fmt/print.go /home/zeya/Workspaces/go/go/src/fmt/scan.go (null)
+encoding
+pid: 17272, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/encoding/encoding.go (null)
+encoding/json
+pid: 17273, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/encoding/json/decode.go /home/zeya/Workspaces/go/go/src/encoding/json/encode.go /home/zeya/Workspaces/go/go/src/encoding/json/fold.go /home/zeya/Workspaces/go/go/src/encoding/json/indent.go /home/zeya/Workspaces/go/go/src/encoding/json/scanner.go /home/zeya/Workspaces/go/go/src/encoding/json/stream.go /home/zeya/Workspaces/go/go/src/encoding/json/tags.go (null)
+flag
+pid: 17274, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/flag/flag.go (null)
+path/filepath
+pid: 17275, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/path/filepath/match.go /home/zeya/Workspaces/go/go/src/path/filepath/path.go /home/zeya/Workspaces/go/go/src/path/filepath/path_unix.go /home/zeya/Workspaces/go/go/src/path/filepath/symlink.go /home/zeya/Workspaces/go/go/src/path/filepath/symlink_unix.go (null)
+path
+pid: 17276, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/path/match.go /home/zeya/Workspaces/go/go/src/path/path.go (null)
+io/ioutil
+pid: 17277, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/io/ioutil/ioutil.go /home/zeya/Workspaces/go/go/src/io/ioutil/tempfile.go (null)
+log
+pid: 17278, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/log/log.go (null)
+regexp/syntax
+pid: 17279, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/regexp/syntax/compile.go /home/zeya/Workspaces/go/go/src/regexp/syntax/doc.go /home/zeya/Workspaces/go/go/src/regexp/syntax/parse.go /home/zeya/Workspaces/go/go/src/regexp/syntax/perl_groups.go /home/zeya/Workspaces/go/go/src/regexp/syntax/prog.go /home/zeya/Workspaces/go/go/src/regexp/syntax/regexp.go /home/zeya/Workspaces/go/go/src/regexp/syntax/simplify.go (null)
+regexp
+pid: 17280, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/regexp/exec.go /home/zeya/Workspaces/go/go/src/regexp/onepass.go /home/zeya/Workspaces/go/go/src/regexp/regexp.go (null)
+go/token
+pid: 17281, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/go/token/position.go /home/zeya/Workspaces/go/go/src/go/token/serialize.go /home/zeya/Workspaces/go/go/src/go/token/token.go (null)
+go/scanner
+pid: 17282, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/go/scanner/errors.go /home/zeya/Workspaces/go/go/src/go/scanner/scanner.go (null)
+go/ast
+pid: 17283, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/go/ast/ast.go /home/zeya/Workspaces/go/go/src/go/ast/commentmap.go /home/zeya/Workspaces/go/go/src/go/ast/filter.go /home/zeya/Workspaces/go/go/src/go/ast/import.go /home/zeya/Workspaces/go/go/src/go/ast/print.go /home/zeya/Workspaces/go/go/src/go/ast/resolve.go /home/zeya/Workspaces/go/go/src/go/ast/scope.go /home/zeya/Workspaces/go/go/src/go/ast/walk.go (null)
+go/parser
+pid: 17284, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/go/parser/interface.go /home/zeya/Workspaces/go/go/src/go/parser/parser.go (null)
+os/exec
+pid: 17285, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/os/exec/exec.go /home/zeya/Workspaces/go/go/src/os/exec/lp_unix.go (null)
+os/signal
+pid: 17286, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6a -I /var/tmp/go-cbuild-tap8Hw -I /home/zeya/Workspaces/go/go/pkg/linux_amd64 -D GOOS_linux -D GOARCH_amd64 -D GOOS_GOARCH_linux_amd64 -o /var/tmp/go-cbuild-tap8Hw/sig.o /home/zeya/Workspaces/go/go/src/os/signal/sig.s (null)
+pid: 17287, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/os/signal/signal.go /home/zeya/Workspaces/go/go/src/os/signal/signal_unix.go (null)
+net/url
+pid: 17288, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/net/url/url.go (null)
+text/template/parse
+pid: 17289, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/text/template/parse/lex.go /home/zeya/Workspaces/go/go/src/text/template/parse/node.go /home/zeya/Workspaces/go/go/src/text/template/parse/parse.go (null)
+text/template
+pid: 17290, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/text/template/doc.go /home/zeya/Workspaces/go/go/src/text/template/exec.go /home/zeya/Workspaces/go/go/src/text/template/funcs.go /home/zeya/Workspaces/go/go/src/text/template/helper.go /home/zeya/Workspaces/go/go/src/text/template/template.go (null)
+go/doc
+pid: 17291, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/go/doc/comment.go /home/zeya/Workspaces/go/go/src/go/doc/doc.go /home/zeya/Workspaces/go/go/src/go/doc/example.go /home/zeya/Workspaces/go/go/src/go/doc/exports.go /home/zeya/Workspaces/go/go/src/go/doc/filter.go /home/zeya/Workspaces/go/go/src/go/doc/reader.go /home/zeya/Workspaces/go/go/src/go/doc/synopsis.go (null)
+go/build
+pid: 17292, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/go/build/build.go /home/zeya/Workspaces/go/go/src/go/build/read.go /home/zeya/Workspaces/go/go/src/go/build/syslist.go (null)
+cmd/go
+pid: 17293, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6g -pack -o /var/tmp/go-cbuild-tap8Hw/_go_.a -p main /home/zeya/Workspaces/go/go/src/cmd/go/bootstrap.go /home/zeya/Workspaces/go/go/src/cmd/go/build.go /home/zeya/Workspaces/go/go/src/cmd/go/clean.go /home/zeya/Workspaces/go/go/src/cmd/go/context.go /home/zeya/Workspaces/go/go/src/cmd/go/env.go /home/zeya/Workspaces/go/go/src/cmd/go/fix.go /home/zeya/Workspaces/go/go/src/cmd/go/fmt.go /home/zeya/Workspaces/go/go/src/cmd/go/generate.go /home/zeya/Workspaces/go/go/src/cmd/go/get.go /home/zeya/Workspaces/go/go/src/cmd/go/go11.go /home/zeya/Workspaces/go/go/src/cmd/go/help.go /home/zeya/Workspaces/go/go/src/cmd/go/list.go /home/zeya/Workspaces/go/go/src/cmd/go/main.go /home/zeya/Workspaces/go/go/src/cmd/go/pkg.go /home/zeya/Workspaces/go/go/src/cmd/go/run.go /home/zeya/Workspaces/go/go/src/cmd/go/signal.go /home/zeya/Workspaces/go/go/src/cmd/go/signal_unix.go /home/zeya/Workspaces/go/go/src/cmd/go/test.go /home/zeya/Workspaces/go/go/src/cmd/go/testflag.go /home/zeya/Workspaces/go/go/src/cmd/go/tool.go /home/zeya/Workspaces/go/go/src/cmd/go/vcs.go /home/zeya/Workspaces/go/go/src/cmd/go/version.go /home/zeya/Workspaces/go/go/src/cmd/go/vet.go /home/zeya/Workspaces/go/go/src/cmd/go/zdefaultcc.go (null)
+pid: 17296, exec  /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/6l -o /home/zeya/Workspaces/go/go/pkg/tool/linux_amd64/go_bootstrap /var/tmp/go-cbuild-tap8Hw/_go_.a (null)
+
+# Building packages and commands for linux/amd64.
+runtime
+errors
+sync/atomic
+unicode
+unicode/utf8
+math
+sort
+sync
+container/heap
+io
+syscall
+hash
+encoding
+unicode/utf16
+hash/crc32
+container/list
+crypto/subtle
+crypto/cipher
+bytes
+strings
+bufio
+time
+text/tabwriter
+path
+crypto/hmac
+internal/syscall
+strconv
+math/rand
+html
+compress/bzip2
+hash/adler32
+container/ring
+hash/crc64
+hash/fnv
+image/color
+reflect
+regexp/syntax
+crypto
+crypto/md5
+os
+encoding/base64
+net/url
+crypto/aes
+path/filepath
+regexp
+crypto/rc4
+crypto/sha1
+io/ioutil
+os/exec
+crypto/sha256
+fmt
+encoding/binary
+crypto/sha512
+encoding/pem
+os/signal
+cmd/pprof/internal/svg
+crypto/des
+encoding/ascii85
+encoding/base32
+image
+image/color/palette
+index/suffixarray
+math/cmplx
+cmd/internal/goobj
+cmd/internal/rsc.io/arm/armasm
+cmd/internal/rsc.io/x86/x86asm
+debug/dwarf
+debug/gosym
+debug/plan9obj
+flag
+debug/elf
+debug/macho
+debug/pe
+log
+go/token
+encoding/json
+encoding/xml
+go/scanner
+cmd/internal/objfile
+go/ast
+text/template/parse
+cmd/addr2line
+compress/flate
+go/parser
+go/printer
+text/template
+compress/gzip
+math/big
+cmd/cgo
+go/format
+go/doc
+cmd/fix
+crypto/elliptic
+go/build
+encoding/asn1
+crypto/rand
+crypto/ecdsa
+crypto/dsa
+crypto/rsa
+crypto/x509/pkix
+encoding/hex
+mime
+net/http/internal
+runtime/pprof
+cmd/nm
+cmd/gofmt
+cmd/objdump
+cmd/pack
+runtime/cgo
+cmd/pprof/internal/profile
+html/template
+cmd/pprof/internal/tempfile
+cmd/yacc
+archive/tar
+cmd/pprof/internal/plugin
+cmd/pprof/internal/report
+# runtime/cgo
+/usr/bin/ld: -r and -pie may not be used together
+collect2: error: ld returned 1 exit status
+cmd/pprof/internal/symbolizer
+cmd/pprof/internal/symbolz
+archive/zip
+compress/lzw
+compress/zlib
+database/sql/driver
+encoding/csv
+database/sql
+encoding/gob
+cmd/pprof/internal/commands
+cmd/pprof/internal/driver
+image/draw
+image/gif
+image/jpeg
+image/png
+runtime/debug
+runtime/race
+testing
+testing/iotest
+testing/quick
+text/scanner
