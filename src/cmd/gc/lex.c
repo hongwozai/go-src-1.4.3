@@ -612,6 +612,10 @@ findpkg(Strlit *name)
 	Idir *p;
 	char *q, *suffix, *suffixsep;
 
+    /**
+     * pkg名称有个.a
+     */
+    /* 是否为./开始的相对路径和绝对路径 */
 	if(islocalname(name)) {
 		if(safemode || nolocalimports)
 			return 0;
@@ -639,6 +643,7 @@ findpkg(Strlit *name)
 		return 0;
 	}
 
+    /* 这个是找一堆目录进行尝试，idirs由外部引用该libgc的库来定义 */
 	for(p = idirs; p != nil; p = p->link) {
 		snprint(namebuf, sizeof(namebuf), "%s/%Z.a", p->dir, name);
 		if(access(namebuf, 0) >= 0)
@@ -674,6 +679,9 @@ fakeimport(void)
 	cannedimports("fake.6", "$$\n");
 }
 
+/**
+ * val *f 指的是import的name
+ */
 void
 importfile(Val *f, int line)
 {
@@ -703,6 +711,7 @@ importfile(Val *f, int line)
 		return;
 	}
 
+    /* 预留main名称的package */
 	// The package name main is no longer reserved,
 	// but we reserve the import path "main" to identify
 	// the main package, just as we reserve the import 
@@ -884,7 +893,6 @@ struct Loophack {
 	Loophack *next;
 };
 
-/* 词法分析主要函数 */
 static int32
 _yylex(void)
 {
@@ -900,8 +908,6 @@ _yylex(void)
 
 l0:
 	c = getc();
-
-    /* 跳过空格，如果是正常状态且遇到换行符，就把换行符改为; */
 	if(yy_isspace(c)) {
 		if(c == '\n' && curio.nlsemi) {
 			ungetc(c);
@@ -913,7 +919,6 @@ l0:
 
 	lineno = lexlineno;	/* start of token */
 
-    /* 多字节字符 */
 	if(c >= Runeself) {
 		/* all multibyte runes are alpha */
 		cp = lexbuf;
@@ -921,14 +926,12 @@ l0:
 		goto talph;
 	}
 
-    /* 如果遇到a-zA-Z就转到符号流程中 */
 	if(yy_isalpha(c)) {
 		cp = lexbuf;
 		ep = lexbuf+sizeof lexbuf;
 		goto talph;
 	}
 
-    /* 数字流程 */
 	if(yy_isdigit(c))
 		goto tnum;
 
@@ -939,7 +942,6 @@ l0:
 		return -1;
 
 	case '_':
-        /* 符号流程 */
 		cp = lexbuf;
 		ep = lexbuf+sizeof lexbuf;
 		goto talph;
@@ -953,7 +955,6 @@ l0:
 			c = c1;
 			goto casedot;
 		}
-        /* 语法糖流程 ... */
 		if(c1 == '.') {
 			c1 = getc();
 			if(c1 == '.') {
@@ -966,10 +967,6 @@ l0:
 		break;
 
 	case '"':
-        /**
-         * 字符串流程
-         * 这里字符串表现为带着长度的不定长结构体
-         */
 		/* "..." */
 		strcpy(lexbuf, "\"<string>\"");
 		cp = mal(8);
@@ -1031,7 +1028,6 @@ l0:
 		return LLITERAL;
 
 	case '\'':
-        /* 字符流程 */
 		/* '.' */
 		if(escchar('\'', &escflag, &v)) {
 			yyerror("empty character literal or unescaped ' in character literal");
@@ -1050,7 +1046,6 @@ l0:
 
 	case '/':
 		c1 = getc();
-        /* /*注释流程 */
 		if(c1 == '*') {
 			int nl;
 			
@@ -1075,7 +1070,6 @@ l0:
 				}
 			}
 		}
-        /* // 注释流程 */
 		if(c1 == '/') {
 			c = getlinepragma();
 			for(;;) {
@@ -1086,8 +1080,6 @@ l0:
 				c = getr();
 			}
 		}
-
-        /* /= 除法并赋值 */
 		if(c1 == '=') {
 			c = ODIV;
 			goto asop;
@@ -1096,8 +1088,6 @@ l0:
 
 	case ':':
 		c1 = getc();
-
-        /* 声明并赋值符号 */
 		if(c1 == '=') {
 			c = LCOLAS;
 			yylval.i = lexlineno;
@@ -1107,8 +1097,6 @@ l0:
 
 	case '*':
 		c1 = getc();
-
-        /* *= 符号 */
 		if(c1 == '=') {
 			c = OMUL;
 			goto asop;
@@ -1117,8 +1105,6 @@ l0:
 
 	case '%':
 		c1 = getc();
-
-        /* %= 符号 */
 		if(c1 == '=') {
 			c = OMOD;
 			goto asop;
@@ -1127,12 +1113,10 @@ l0:
 
 	case '+':
 		c1 = getc();
-        /* ++ 自增运算符 */
 		if(c1 == '+') {
 			c = LINC;
 			goto lx;
 		}
-        /* += */
 		if(c1 == '=') {
 			c = OADD;
 			goto asop;
@@ -1141,12 +1125,10 @@ l0:
 
 	case '-':
 		c1 = getc();
-        /* -- */
 		if(c1 == '-') {
 			c = LDEC;
 			goto lx;
 		}
-        /* -= */
 		if(c1 == '=') {
 			c = OSUB;
 			goto asop;
@@ -1155,7 +1137,6 @@ l0:
 
 	case '>':
 		c1 = getc();
-        /* >>  >>= 右移 */
 		if(c1 == '>') {
 			c = LRSH;
 			c1 = getc();
@@ -1165,7 +1146,6 @@ l0:
 			}
 			break;
 		}
-        /* >= */
 		if(c1 == '=') {
 			c = LGE;
 			goto lx;
@@ -1175,7 +1155,6 @@ l0:
 
 	case '<':
 		c1 = getc();
-        /* << <<= */
 		if(c1 == '<') {
 			c = LLSH;
 			c1 = getc();
@@ -1185,12 +1164,10 @@ l0:
 			}
 			break;
 		}
-        /* <= */
 		if(c1 == '=') {
 			c = LLE;
 			goto lx;
 		}
-        /* <- */
 		if(c1 == '-') {
 			c = LCOMM;
 			goto lx;
@@ -1200,7 +1177,6 @@ l0:
 
 	case '=':
 		c1 = getc();
-        /* == equal */
 		if(c1 == '=') {
 			c = LEQ;
 			goto lx;
@@ -1209,7 +1185,6 @@ l0:
 
 	case '!':
 		c1 = getc();
-        /* != */
 		if(c1 == '=') {
 			c = LNE;
 			goto lx;
@@ -1218,12 +1193,10 @@ l0:
 
 	case '&':
 		c1 = getc();
-        /* && */
 		if(c1 == '&') {
 			c = LANDAND;
 			goto lx;
 		}
-        /* ^ */
 		if(c1 == '^') {
 			c = LANDNOT;
 			c1 = getc();
@@ -1233,7 +1206,6 @@ l0:
 			}
 			break;
 		}
-        /* &= */
 		if(c1 == '=') {
 			c = OAND;
 			goto asop;
@@ -1242,12 +1214,10 @@ l0:
 
 	case '|':
 		c1 = getc();
-        /* || */
 		if(c1 == '|') {
 			c = LOROR;
 			goto lx;
 		}
-        /* |= */
 		if(c1 == '=') {
 			c = OOR;
 			goto asop;
@@ -1256,7 +1226,6 @@ l0:
 
 	case '^':
 		c1 = getc();
-        /* ^= */
 		if(c1 == '=') {
 			c = OXOR;
 			goto asop;
@@ -1306,10 +1275,6 @@ l0:
 		}
 		goto lx;
 	case '{':
-        /**
-         * 如果是if/select/for等语句，if 后面的不是{，而是LBODY
-         * 用这种方式来实现if后无括号的检查
-         */
 		if(loophack == 1) {
 			DBG("%L lex: LBODY\n", lexlineno);
 			loophack = 0;
@@ -1323,7 +1288,6 @@ l0:
 	ungetc(c1);
 
 lx:
-    /* 直接返回当前符号 */
 	if(c > 0xff)
 		DBG("%L lex: TOKEN %s\n", lexlineno, lexname(c));
 	else
@@ -1344,15 +1308,6 @@ asop:
 	return LASOP;
 
 talph:
-    /**
-     * 符号流程
-     * 1. 先不断拿字符，获得符号的字符串名称（符号格式与C定义完全一致）
-     * 2. 然后上符号表中查找，没有了则添加（只属于本地pkg的符号）
-     *    其符号表是hash表
-     * 3. 然后根据符号表中记录的符号类型操作
-     *    3.1 如果是之前已经添加的符号，直接返回事先定义好的（关键字）
-     *    3.2 如果是新的，则返回LNAME
-     */
 	/*
 	 * cp is set to lexbuf and some
 	 * prefix has been stored
@@ -1378,7 +1333,6 @@ talph:
 	*cp = 0;
 	ungetc(c);
 
-    /* lookup在subr.c中 */
 	s = lookup(lexbuf);
 	switch(s->lexical) {
 	case LIGNORE:
@@ -2406,6 +2360,10 @@ pkgnotused(int lineno, Strlit *path, char *name)
 		yyerrorl(lineno, "imported and not used: \"%Z\" as %s", path, name);
 }
 
+/**
+ * 根据包名，将localpkg赋值
+ * 并将outfile改为 名称.thechar
+ */
 void
 mkpackage(char* pkgname)
 {
@@ -2420,6 +2378,7 @@ mkpackage(char* pkgname)
 	} else {
 		if(strcmp(pkgname, localpkg->name) != 0)
 			yyerror("package %s; expected %s", pkgname, localpkg->name);
+        /* TODO: */
 		for(h=0; h<NHASH; h++) {
 			for(s = hash[h]; s != S; s = s->link) {
 				if(s->def == N || s->pkg != localpkg)
@@ -2461,9 +2420,15 @@ mkpackage(char* pkgname)
 		else
 			p = p+1;
 		snprint(namebuf, sizeof(namebuf), "%s", p);
+
+        /* 去除名称后面的. */
 		p = strrchr(namebuf, '.');
 		if(p != nil)
 			*p = 0;
+        /* thechar表示对应平台的数字 6表示amd64 */
 		outfile = smprint("%s.%c", namebuf, thechar);
+
+        /* outfile写文件到形如packagename.6的文件 */
 	}
+
 }

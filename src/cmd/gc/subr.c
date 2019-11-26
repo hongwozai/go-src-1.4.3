@@ -330,6 +330,9 @@ lookup(char *name)
 	return pkglookup(name, localpkg);
 }
 
+/**
+ * 符号表是hash表，每个符号有一个所属的pkg
+ */
 Sym*
 pkglookup(char *name, Pkg *pkg)
 {
@@ -426,6 +429,9 @@ gethunk(void)
 	thunk += nh;
 }
 
+/**
+ * 使用hunk方式，各自局部分配，然后统一释放
+ */
 void*
 mal(int32 n)
 {
@@ -3690,6 +3696,9 @@ pathtoprefix(char *s)
 	return p;
 }
 
+/**
+ * pkg 有一个hash表，类似原子（享元模式）
+ */
 Pkg*
 mkpkg(Strlit *path)
 {

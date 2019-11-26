@@ -165,6 +165,8 @@ loadsys:
 imports:
 |	imports import ';'
 
+    /* 1. import (|NAME|.) "STRING" package name safe */
+    /* 2. import ( name ; name ) */
 import:
 	LIMPORT import_stmt
 |	LIMPORT '(' import_stmt_list osemi ')'
@@ -1111,6 +1113,9 @@ sym:
 	{
 		$$ = $1;
 		// during imports, unqualified non-exported identifiers are from builtinpkg
+        /**
+         * 如果不是要对外输出的名称，重新生成符号(符号所属的包是builtinpkg)
+         */
 		if(importpkg != nil && !exportname($1->name))
 			$$ = pkglookup($1->name, builtinpkg);
 	}
