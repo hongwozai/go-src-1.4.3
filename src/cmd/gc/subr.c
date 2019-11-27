@@ -3228,6 +3228,10 @@ concat(NodeList *a, NodeList *b)
 	if(b == nil)
 		return a;
 
+    /**
+     * next域用于指示该结点的下一个
+     * end域用于指示该链表的最后一个
+     */
 	a->end->next = b;
 	a->end = b->end;
 	b->end = nil;

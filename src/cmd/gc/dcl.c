@@ -258,6 +258,9 @@ addvar(Node *n, Type *t, int ctxt)
 /*
  * declare variables from grammar
  * new_name_list (type | [type] = expr_list)
+ * vl 符号名称列表
+ * t 符号类型
+ * el 表达式列表
  */
 NodeList*
 variter(NodeList *vl, Node *t, NodeList *el)
@@ -298,13 +301,18 @@ variter(NodeList *vl, Node *t, NodeList *el)
 			e = N;
 
 		v = vl->n;
+
+        /* 到这里v,e分别表示当前的变量和表达式 */
 		v->op = ONAME;
 		declare(v, dclcontext);
 		v->ntype = t;
 
 		if(e != N || funcdepth > 0 || isblank(v)) {
+            /* 如果在函数内，那么语法树多声明一个decl的结点 */
 			if(funcdepth > 0)
 				init = list(init, nod(ODCL, v, N));
+
+            /* x=y 的语法树结构 */
 			e = nod(OAS, v, e);
 			init = list(init, e);
 			if(e->right != N)
@@ -319,6 +327,7 @@ variter(NodeList *vl, Node *t, NodeList *el)
 /*
  * declare constants from grammar
  * new_name_list [[type] = expr_list]
+ * 同variter一样
  */
 NodeList*
 constiter(NodeList *vl, Node *t, NodeList *cl)
@@ -591,11 +600,14 @@ funchdr(Node *n)
 
 	dclcontext = PAUTO;
 	markdcl();
+
+    /* 这个标示现在是否在函数里面 */
 	funcdepth++;
 
 	n->outer = curfn;
 	curfn = n;
 
+    /* nname是函数名 */
 	if(n->nname)
 		funcargs(n->nname->ntype);
 	else if (n->ntype)
@@ -1143,6 +1155,8 @@ checkarglist(NodeList *all, int input)
 		if(n != N)
 			n = newname(n->sym);
 		n = nod(ODCLFIELD, n, t);
+
+        /* 如果遇到省略号，那么生成一个array */
 		if(n->right != N && n->right->op == ODDD) {
 			if(!input)
 				yyerror("cannot use ... in output argument list");

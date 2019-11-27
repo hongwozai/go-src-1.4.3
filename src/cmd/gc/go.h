@@ -390,6 +390,7 @@ struct	Sym
 	uchar	flags;
 	uchar	sym;		// huffman encoding in object file
 	Sym*	link;
+    /* 已经import的次数 */
 	int32	npkg;	// number of imported packages with this name
 	uint32	uniqgen;
 	Pkg*	importdef;	// where imported definition was found
@@ -397,7 +398,10 @@ struct	Sym
 	// saved and restored by dcopy
 	Pkg*	pkg;
 	char*	name;		// variable name
+
+    /* 该符号定义的语法树结点 */
 	Node*	def;		// definition: ONAME OTYPE OPACK or OLITERAL
+
 	Label*	label;	// corresponding label (ephemeral)
 	int32	block;		// blocknumber to catch redeclaration
 	int32	lastlineno;	// last declaration for diagnostic

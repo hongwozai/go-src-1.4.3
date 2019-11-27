@@ -138,6 +138,7 @@ package:
 	}
 |	LPACKAGE sym ';'
 	{
+        print("package sym\n");
 		mkpackage($2->name);
 	}
 
@@ -175,15 +176,23 @@ import:
 import_stmt:
 	import_here import_package import_there
 	{
+        print("import1 !!!\n");
 		Pkg *ipkg;
 		Sym *my;
 		Node *pack;
-		
+        /**
+         * 总的来说这段代码就是生成一个sym，生成一个node，并关联起来
+         */
+        /**
+         * importmyname 是import时要改名的符号
+         * importpkg 是要import的包
+         */
 		ipkg = importpkg;
 		my = importmyname;
 		importpkg = nil;
 		importmyname = S;
 
+        // 如果当前没有要改名的符号的话，直接使用import的包名
 		if(my == nil)
 			my = lookup(ipkg->name);
 
@@ -202,6 +211,8 @@ import_stmt:
 		}
 		if(my->name[0] == '_' && my->name[1] == '\0')
 			break;
+
+        // import的符号重定义了
 		if(my->def) {
 			lineno = $1;
 			redeclare(my, "as imported package name");
@@ -212,6 +223,7 @@ import_stmt:
 	}
 |	import_here import_there
 	{
+        print("import2!!!\n");
 		// When an invalid import path is passed to importfile,
 		// it calls yyerror and then sets up a fake import with
 		// no package statement. This allows us to test more
@@ -230,6 +242,7 @@ import_here:
 		// import with original name
 		$$ = parserline();
 		importmyname = S;
+        print("import_here \"%s\"\n", $1.u.sval->s);
 		importfile(&$1, $$);
 	}
 |	sym LLITERAL
@@ -250,6 +263,7 @@ import_here:
 import_package:
 	LPACKAGE LNAME import_safety ';'
 	{
+        print("package '%s' safe\n", $2->name);
 		if(importpkg->name == nil) {
 			importpkg->name = $2->name;
 			pkglookup($2->name, nil)->npkg++;
@@ -1099,6 +1113,7 @@ new_name:
 dcl_name:
 	sym
 	{
+        /* 符号创建 */
 		$$ = dclname($1);
 	}
 
@@ -1184,6 +1199,7 @@ dotdotdot:
 		$$ = nod(ODDD, $2, N);
 	}
 
+                /* 这个是类型, 1. <- chan 2.   */
 ntype:
 	recvchantype
 |	fntype
@@ -1345,10 +1361,12 @@ fndcl:
 				yyerror("func main must have no arguments and no return values");
 		}
 
+                /* 类型 */
 		t = nod(OTFUNC, N, N);
 		t->list = $3;
 		t->rlist = $5;
 
+        /* 真正函数的语法树结点 */
 		$$ = nod(ODCLFUNC, N, N);
 		$$->nname = newname($1);
 		$$->nname->defn = $$;

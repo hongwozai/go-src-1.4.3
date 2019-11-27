@@ -9,6 +9,11 @@
 
 static void	dumpexporttype(Type *t);
 
+/**
+ * 这里用来标记export的符号（init,开头大写）
+ * flags计入大写标志
+ * 并加入exportlist
+ */
 // Mark n's symbol as exported
 void
 exportsym(Node *n)
